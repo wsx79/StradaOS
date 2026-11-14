@@ -1,0 +1,872 @@
+--------- beginning of system
+11-14 19:03:10.327   554  2221 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10126; state: DISABLED
+11-14 19:03:10.327   554  2221 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:10.328   554  2221 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10126; state: ENABLED
+11-14 19:03:10.330   554  2221 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10126; state: DISABLED
+11-14 19:03:10.331   554  2221 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10126; state: DISABLED
+11-14 19:03:10.331   554  2221 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10126; state: DISABLED
+11-14 19:03:10.331   554  2221 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10126; state: DISABLED
+11-14 19:03:10.331   554  2221 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10126; state: DISABLED
+11-14 19:03:10.331   554  2221 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10126; state: DISABLED
+11-14 19:03:10.331   554  2221 V SplashScreenExceptionList: SplashScreen checking exception for package com.stradaos.launcher.debug (target sdk:28) -> false
+11-14 19:03:10.331   554  2221 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10126; state: DISABLED
+11-14 19:03:10.338   554   576 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10126; state: DISABLED
+11-14 19:03:10.338   554   576 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10126; state: DISABLED
+11-14 19:03:10.338   554   576 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10126; state: DISABLED
+11-14 19:03:10.338   554   576 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10126; state: DISABLED
+11-14 19:03:10.339   554   585 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10126; state: DISABLED
+11-14 19:03:10.342   554  1713 D CoreBackPreview: Window{7e1e5bc u0 Splash Screen com.stradaos.launcher.debug}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@cae689a, mPriority=0}
+--------- beginning of main
+11-14 19:03:10.343   794   866 D SplashScreenView: Build android.window.SplashScreenView{44cfae4 V.E...... ......ID 0,0-0,0}
+11-14 19:03:10.343   794   866 D SplashScreenView: Icon: view: android.widget.ImageView{9907b4d V.ED..... ......I. 0,0-0,0 #10204dc android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@2a42602 size: 160
+11-14 19:03:10.343   794   866 D SplashScreenView: Branding: view: android.view.View{b04fb13 G.ED..... ......I. 0,0-0,0 #10204db android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+11-14 19:03:10.361   440   440 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-14 19:03:10.366   360   360 D Zygote  : Forked child process 2365
+11-14 19:03:10.367   554   585 I ActivityManager: Start proc 2365:com.stradaos.launcher.debug/u0a126 for next-top-activity {com.stradaos.launcher.debug/com.stradaos.launcher.Main}
+11-14 19:03:10.405   794   995 W Parcel  : Expecting binder but got null!
+11-14 19:03:10.416  2365  2365 I .launcher.debug: Late-enabling -Xcheck:jni
+11-14 19:03:10.451   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1eb0
+11-14 19:03:10.451   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1cd0
+11-14 19:03:10.451   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1cd0
+11-14 19:03:10.451   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1eb0
+11-14 19:03:10.514   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:03:10.514   554  1418 I Gralloc4: mapper 4.x is not supported
+11-14 19:03:10.533   554  1418 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:10.539  2365  2365 W .launcher.debug: Unexpected CPU variant for x86: x86_64.
+11-14 19:03:10.539  2365  2365 W .launcher.debug: Known variants: atom, sandybridge, silvermont, kabylake, default
+11-14 19:03:10.542   452   465 I adbd    : jdwp connection from 2365
+11-14 19:03:10.563  2365  2365 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10126; state: DISABLED
+11-14 19:03:10.566  2365  2365 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-14 19:03:10.567  2365  2365 W ziparchive: Unable to open '/data/app/~~EEfTI_A1IM_fjMBLrPDsuQ==/com.stradaos.launcher.debug-nZIdJSc0aSUDr4Mnnie93w==/base.dm': No such file or directory
+11-14 19:03:10.567  2365  2365 W ziparchive: Unable to open '/data/app/~~EEfTI_A1IM_fjMBLrPDsuQ==/com.stradaos.launcher.debug-nZIdJSc0aSUDr4Mnnie93w==/base.dm': No such file or directory
+11-14 19:03:10.576  2365  2365 V GraphicsEnvironment: ANGLE Developer option for 'com.stradaos.launcher.debug' set to: 'default'
+11-14 19:03:10.577  2365  2365 V GraphicsEnvironment: ANGLE GameManagerService for com.stradaos.launcher.debug: false
+11-14 19:03:10.577  2365  2365 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-14 19:03:10.578  2365  2365 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:03:10.579  2365  2365 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:03:10.601  2365  2383 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-14 19:03:10.604  2365  2383 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-14 19:03:10.606  2365  2383 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-14 19:03:10.637   554  1418 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10126; state: DISABLED
+11-14 19:03:10.643   554  1027 D CompatibilityChangeReporter: Compat change id reported: 168936375; UID 10126; state: DISABLED
+11-14 19:03:10.644   554  1027 D CompatibilityChangeReporter: Compat change id reported: 73144566; UID 10126; state: DISABLED
+11-14 19:03:10.649   554  1027 W WindowManager: Failed looking up window session=Session{e4597aa 2365:u0a10126} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5972 com.android.server.wm.Session.updateRequestedVisibilities:701 android.view.IWindowSession$Stub.onTransact:1075 
+11-14 19:03:10.650   554  1418 D CoreBackPreview: Window{79b3b11 u0 com.stradaos.launcher.debug/com.stradaos.launcher.Main}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6d18a77, mPriority=0}
+11-14 19:03:10.671   440   449 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10126 pid=0
+11-14 19:03:10.671   440   449 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10126 => denied (262 us)
+11-14 19:03:10.671   440   449 W ServiceManager: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10126 pid=0
+11-14 19:03:10.671   440   449 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10126 => denied (157 us)
+11-14 19:03:10.671   440   449 W ServiceManager: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10126 pid=0
+11-14 19:03:10.671   440   449 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10126 => denied (81 us)
+11-14 19:03:10.674   794   995 D EGL_emulation: app_time_stats: avg=722.88ms min=2.20ms max=9676.14ms count=15
+11-14 19:03:10.688  2365  2381 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:10.690  2365  2381 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-14 19:03:10.690  2365  2381 D EGL_emulation: eglCreateContext: 0x773ced99f310: maj 3 min 0 rcv 3
+11-14 19:03:10.691  2365  2381 D EGL_emulation: eglMakeCurrent: 0x773ced99f310: ver 3 0 (tinfo 0x773f19731080) (first time)
+11-14 19:03:10.707   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:03:10.707  2365  2381 I Gralloc4: mapper 4.x is not supported
+11-14 19:03:10.712   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+11-14 19:03:10.712   208   208 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+11-14 19:03:10.712  2365  2381 W Gralloc4: allocator 4.x is not supported
+11-14 19:03:10.718  2365  2381 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:10.837  2365  2381 W Parcel  : Expecting binder but got null!
+11-14 19:03:10.840   554   573 W ziparchive: Unable to open '/data/app/~~EEfTI_A1IM_fjMBLrPDsuQ==/com.stradaos.launcher.debug-nZIdJSc0aSUDr4Mnnie93w==/base.dm': No such file or directory
+11-14 19:03:10.840   554   573 I ActivityTaskManager: Displayed com.stradaos.launcher.debug/com.stradaos.launcher.Main: +512ms
+11-14 19:03:10.841  2365  2365 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10126; state: DISABLED
+11-14 19:03:10.841  2365  2365 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10126; state: ENABLED
+11-14 19:03:10.873   554  1418 W InputManager-JNI: Input channel object '7e1e5bc Splash Screen com.stradaos.launcher.debug (client)' was disposed without first being removed with the input manager!
+11-14 19:03:10.874   554  1027 D CoreBackPreview: Window{7e1e5bc u0 Splash Screen com.stradaos.launcher.debug EXITING}: Setting back callback null
+11-14 19:03:10.894   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f2c90
+11-14 19:03:10.894   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f2750
+11-14 19:03:10.894   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1af0
+11-14 19:03:10.894   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1af0
+11-14 19:03:10.894   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1af0
+11-14 19:03:10.897   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f2750
+11-14 19:03:10.960  2365  2372 I .launcher.debug: Compiler allocated 4160KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-14 19:03:11.358   554  1520 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10126; state: DISABLED
+11-14 19:03:11.395   440   450 W TransactionTracing: Could not find layer handle 0x7f5f2d6f1d90
+11-14 19:03:11.934   437   442 W GpuWork : Failed to attach bpf program to power/gpu_work_period tracepoint [2(No such file or directory)]
+11-14 19:03:12.006  1461  1496 D StrictMode: StrictMode policy violation: android.os.strictmode.SqliteObjectLeakedViolation: Finalizing a Cursor that has not been deactivated or closed. database = /data/user/0/com.android.providers.contacts/databases/contacts2.db, table = raw_contacts, query = SELECT contacts_view._id AS _id, contacts_view.display_name AS display_name, contacts_view.photo_thumb_uri AS photo_thumb_uri, data1 AS number, data2 AS type, data3 AS label, contacts_view.lookup AS lookup FROM raw_contacts JOIN view_contacts as contacts_view ON (contacts_view._id = raw_contacts.contact_id) JOIN (SELECT data_id,normalized_number FROM phone_lookup WHERE (phone_lookup.min_match = '7654321')) AS lookup ON lookup.data_id=data._id JOIN data ON data.raw_contact_id=raw_contacts._id WHERE (PHONE_NUMBERS_EQUAL(data.data1, '+15551234567', 0, 7)) ORDER BY  length(lookup.normalized_number) DESC
+11-14 19:03:12.006  1461  1496 D StrictMode: 	at android.os.StrictMode.onSqliteObjectLeaked(StrictMode.java:2185)
+11-14 19:03:12.006  1461  1496 D StrictMode: 	at android.database.sqlite.SQLiteCursor.finalize(SQLiteCursor.java:282)
+11-14 19:03:12.006  1461  1496 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:319)
+11-14 19:03:12.006  1461  1496 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:306)
+11-14 19:03:12.006  1461  1496 D StrictMode: 	at java.lang.Daemons$Daemon.run(Daemons.java:140)
+11-14 19:03:12.006  1461  1496 D StrictMode: 	at java.lang.Thread.run(Thread.java:1012)
+11-14 19:03:12.007  1461  1496 D StrictMode: StrictMode policy violation: android.os.strictmode.LeakedClosableViolation: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.os.StrictMode$AndroidCloseGuardReporter.report(StrictMode.java:1986)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at dalvik.system.CloseGuard.warnIfOpen(CloseGuard.java:336)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.AbstractCursor.finalize(AbstractCursor.java:531)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.sqlite.SQLiteCursor.finalize(SQLiteCursor.java:291)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:319)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:306)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at java.lang.Daemons$Daemon.run(Daemons.java:140)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at java.lang.Thread.run(Thread.java:1012)
+11-14 19:03:12.007  1461  1496 D StrictMode: Caused by: java.lang.Throwable: Explicit termination method 'AbstractCursor.close' not called
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at dalvik.system.CloseGuard.openWithCallSite(CloseGuard.java:288)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at dalvik.system.CloseGuard.open(CloseGuard.java:257)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.AbstractCursor.<init>(AbstractCursor.java:227)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.AbstractWindowedCursor.<init>(AbstractWindowedCursor.java:39)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.sqlite.SQLiteCursor.<init>(SQLiteCursor.java:98)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:52)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1712)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.database.sqlite.SQLiteQueryBuilder.query(SQLiteQueryBuilder.java:592)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.doQuery(ContactsProvider2.java:7249)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryLocal(ContactsProvider2.java:6955)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryCorpLookupIfNecessary(ContactsProvider2.java:7419)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryLookupEnterprise(ContactsProvider2.java:7558)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryPhoneLookupEnterprise(ContactsProvider2.java:7529)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryLocal(ContactsProvider2.java:6878)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryDirectoryIfNecessary(ContactsProvider2.java:5667)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.queryInternal(ContactsProvider2.java:5609)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at com.android.providers.contacts.ContactsProvider2.query(ContactsProvider2.java:5559)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.content.ContentProvider.query(ContentProvider.java:1551)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:285)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:107)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+11-14 19:03:12.007  1461  1496 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1244)
+--------- beginning of kernel
+11-14 19:03:12.631     0     0 I init    : Sending signal 9 to service 'idmap2d' (pid 485) process group...
+11-14 19:03:12.463   554  1418 W OverlayManager: service 'idmap' died
+11-14 19:03:12.639     0     0 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 485 in 5ms
+11-14 19:03:12.641     0     0 I init    : Control message: Processed ctl.stop for 'idmap2d' from pid: 554 (system_server)
+11-14 19:03:12.643     0     0 I init    : Service 'idmap2d' (pid 485) received signal 9
+11-14 19:03:13.547  2116  2158 I RemoteProvisioningService: Generated 6 keys. 6 keys were also available for signing previous to generation.
+11-14 19:03:13.547  2116  2158 I RemoteProvisioningService: Requesting 12 keys to be provisioned.
+11-14 19:03:13.548  2116  2158 I RemoteProvisioningService: Request for 12 keys to be provisioned.
+11-14 19:03:13.548  2116  2158 I RemoteProvisioner: Packaging 12 keys into a CSR. Test: false
+11-14 19:03:13.630  1309  1309 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10096; state: DISABLED
+11-14 19:03:13.631  1390  1390 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-14 19:03:13.644   554  1418 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:13.669  2365  2381 D EGL_emulation: app_time_stats: avg=709.06ms min=22.17ms max=1998.87ms count=4
+11-14 19:03:13.727  2116  2158 I RemoteProvisioningService: Received 12 certificate chains from the server.
+11-14 19:03:13.752  2116  2158 I RemoteProvisioningService: In provisionCerts: Requested 12 keys. 12 were provisioned.
+11-14 19:03:13.754  2116  2141 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f1050243-293a-4fd7-a731-7142cbb4e256, tags={ com.android.remoteprovisioner.PeriodicProvisioner } ]
+11-14 19:03:14.810   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:15.130  1390  1390 I ProvidersCache: Updating roots due to change on user 0at content://com.android.providers.media.documents/root
+11-14 19:03:15.360  2365  2381 D EGL_emulation: app_time_stats: avg=1690.29ms min=1690.29ms max=1690.29ms count=1
+11-14 19:03:15.378  2365  2402 D TrafficStats: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:15.378  2365  2403 D TrafficStats: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:15.406   554   616 D WifiNl80211Manager: Scan result ready event
+11-14 19:03:15.406   554   616 D WifiNative: Scan result ready event
+11-14 19:03:15.644   554   616 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:15.666   554   630 D OomAdjuster: Not killing cached processes
+11-14 19:03:15.809   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:16.366  2365  2381 D EGL_emulation: app_time_stats: avg=28.75ms min=5.96ms max=270.77ms count=30
+11-14 19:03:16.546  2365  2372 I .launcher.debug: Compiler allocated 4533KB to compile void android.view.ViewRootImpl.performTraversals()
+11-14 19:03:16.812   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:17.383  2365  2381 D EGL_emulation: app_time_stats: avg=20.21ms min=7.85ms max=34.19ms count=43
+11-14 19:03:17.649   554   616 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:17.815   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:18.419  2365  2381 D EGL_emulation: app_time_stats: avg=21.66ms min=5.84ms max=52.33ms count=41
+11-14 19:03:18.812   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:19.436  2365  2381 D EGL_emulation: app_time_stats: avg=48.38ms min=27.06ms max=52.14ms count=21
+11-14 19:03:19.650   554   616 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:19.812   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:20.453  2365  2381 D EGL_emulation: app_time_stats: avg=48.41ms min=26.70ms max=54.51ms count=21
+11-14 19:03:20.720   554   630 D OomAdjuster: Not killing cached processes
+11-14 19:03:20.813   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:21.459  2365  2381 D EGL_emulation: app_time_stats: avg=29.16ms min=7.32ms max=54.18ms count=33
+11-14 19:03:21.653   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:21.816   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:22.462  2365  2381 D EGL_emulation: app_time_stats: avg=21.11ms min=6.90ms max=33.91ms count=40
+11-14 19:03:22.816   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:23.502  2365  2381 D EGL_emulation: app_time_stats: avg=34.68ms min=8.83ms max=51.81ms count=29
+11-14 19:03:23.657   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:23.819   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:24.250   230   874 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+11-14 19:03:24.508  2365  2381 D EGL_emulation: app_time_stats: avg=26.21ms min=8.44ms max=52.65ms count=35
+11-14 19:03:24.815   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:25.510  2365  2381 D EGL_emulation: app_time_stats: avg=19.99ms min=7.99ms max=32.44ms count=42
+11-14 19:03:25.677   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:25.829   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:26.519  2365  2381 D EGL_emulation: app_time_stats: avg=20.60ms min=7.11ms max=32.01ms count=42
+11-14 19:03:26.815   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:27.570  2365  2381 D EGL_emulation: app_time_stats: avg=28.56ms min=9.13ms max=50.93ms count=32
+11-14 19:03:27.678   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:27.819   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:28.598  2365  2381 D EGL_emulation: app_time_stats: avg=25.25ms min=9.25ms max=52.31ms count=36
+11-14 19:03:28.831   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:29.606  2365  2381 D EGL_emulation: app_time_stats: avg=20.69ms min=6.88ms max=32.48ms count=42
+11-14 19:03:29.691   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:29.819   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:30.408   554  2420 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10126; state: DISABLED
+11-14 19:03:30.408   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:30.409   554  2420 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10126; state: ENABLED
+11-14 19:03:30.409   554  2420 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10126; state: DISABLED
+11-14 19:03:30.409   554  2420 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10126; state: DISABLED
+11-14 19:03:30.409   554  2420 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10126; state: DISABLED
+11-14 19:03:30.417   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:30.417   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:03:30.449   794   995 D EGL_emulation: app_time_stats: avg=9887.63ms min=14.06ms max=19761.20ms count=2
+11-14 19:03:30.485   554   576 D OomAdjuster: Not killing cached processes
+11-14 19:03:30.600  2365  2426 D TrafficStats: tagSocket(74) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:30.636  2365  2381 D EGL_emulation: app_time_stats: avg=23.41ms min=8.88ms max=50.16ms count=38
+11-14 19:03:31.486  2365  2426 D TrafficStats: tagSocket(71) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:31.693   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:31.965  2365  2372 I .launcher.debug: Compiler allocated 4160KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-14 19:03:31.989  2365  2381 D EGL_emulation: app_time_stats: avg=225.45ms min=47.91ms max=644.59ms count=6
+11-14 19:03:33.490  2365  2381 D EGL_emulation: app_time_stats: avg=500.48ms min=22.32ms max=1382.24ms count=3
+11-14 19:03:33.694   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:34.819   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:34.841  2365  2381 D EGL_emulation: app_time_stats: avg=1349.82ms min=1349.82ms max=1349.82ms count=1
+11-14 19:03:35.410   554  2420 D WifiNl80211Manager: Scan result ready event
+11-14 19:03:35.410   554  2420 D WifiNative: Scan result ready event
+11-14 19:03:35.695   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:35.819   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:35.865  2365  2381 D EGL_emulation: app_time_stats: avg=44.31ms min=13.60ms max=52.92ms count=23
+11-14 19:03:36.470   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:36.490   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:36.490   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:03:36.501   794   995 D EGL_emulation: app_time_stats: avg=2014.31ms min=3.92ms max=6002.10ms count=3
+11-14 19:03:36.590   554   576 D OomAdjuster: Not killing cached processes
+11-14 19:03:36.876  2365  2381 D EGL_emulation: app_time_stats: avg=21.68ms min=9.26ms max=51.60ms count=40
+11-14 19:03:37.696   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:38.018  2365  2372 I .launcher.debug: Compiler allocated 4160KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-14 19:03:38.039  2365  2381 D EGL_emulation: app_time_stats: avg=382.75ms min=11.38ms max=610.76ms count=3
+11-14 19:03:38.758   554   733 E WifiHealthMonitor:  Hit PackageManager exception
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: No module info for package: com.android.wifi
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getModuleInfo(ApplicationPackageManager.java:1187)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.getWifiStackVersion(WifiHealthMonitor.java:366)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.extractCurrentSoftwareBuildInfo(WifiHealthMonitor.java:587)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootSwBuildCheck(WifiHealthMonitor.java:522)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootDetectionHandler(WifiHealthMonitor.java:513)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.-$$Nest$mpostBootDetectionHandler(Unknown Source:0)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor$2.onAlarm(WifiHealthMonitor.java:190)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.app.AlarmManager$ListenerWrapper.run(AlarmManager.java:347)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.os.Handler.handleCallback(Handler.java:942)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.os.Looper.loopOnce(Looper.java:201)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.os.Looper.loop(Looper.java:288)
+11-14 19:03:38.758   554   733 E WifiHealthMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-14 19:03:39.539  2365  2381 D EGL_emulation: app_time_stats: avg=748.55ms min=16.54ms max=1480.56ms count=2
+11-14 19:03:39.698   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:40.821   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:40.840  2365  2381 D EGL_emulation: app_time_stats: avg=1300.63ms min=1300.63ms max=1300.63ms count=1
+11-14 19:03:41.766     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+11-14 19:03:41.701   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:41.821   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:41.864  2365  2381 D EGL_emulation: app_time_stats: avg=44.48ms min=15.39ms max=53.43ms count=23
+11-14 19:03:42.516   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:42.821   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:42.834  2365  2441 D TrafficStats: tagSocket(80) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:42.836  2365  2442 D TrafficStats: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:42.873  2365  2381 D EGL_emulation: app_time_stats: avg=22.13ms min=8.15ms max=36.87ms count=40
+11-14 19:03:43.525   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:43.701   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:43.822   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:43.912  2365  2381 D EGL_emulation: app_time_stats: avg=78.20ms min=9.86ms max=423.97ms count=13
+11-14 19:03:44.542   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:44.822   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:44.928  2365  2381 D EGL_emulation: app_time_stats: avg=17.39ms min=7.47ms max=33.70ms count=46
+11-14 19:03:45.549   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:45.719   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:45.825   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:45.941  2365  2381 D EGL_emulation: app_time_stats: avg=19.59ms min=7.75ms max=31.52ms count=45
+11-14 19:03:46.563   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:46.824   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:46.963  2365  2381 D EGL_emulation: app_time_stats: avg=19.14ms min=7.44ms max=31.18ms count=42
+11-14 19:03:47.589   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:47.722   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:47.825   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:47.983  2365  2381 D EGL_emulation: app_time_stats: avg=19.56ms min=8.06ms max=33.48ms count=43
+11-14 19:03:48.605   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:48.825   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:48.871  2446  2446 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:03:48.885   440   449 W ServiceManager: Permission failure: android.permission.CAPTURE_BLACKOUT_CONTENT from uid=2000 pid=2446
+11-14 19:03:48.885   440   449 D PermissionCache: checking android.permission.CAPTURE_BLACKOUT_CONTENT for uid=2000 => denied (471 us)
+11-14 19:03:48.905   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:03:48.905  2446  2448 I Gralloc4: mapper 4.x is not supported
+11-14 19:03:48.957  2446  2448 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:48.985  2365  2381 D EGL_emulation: app_time_stats: avg=22.87ms min=11.13ms max=35.34ms count=40
+11-14 19:03:49.095   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:03:49.122  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:49.120  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:18): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:49.301     0     0 I logd    : start watching /data/system/packages.list ...
+11-14 19:03:49.308     0     0 W audit   : audit_lost=2 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:03:49.315     0     0 I logd    : ReadPackageList, total packages: 134
+11-14 19:03:49.120  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:19): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:49.328     0     0 E audit   : rate limit exceeded
+11-14 19:03:49.124  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:20): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:49.166  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:03:49.167  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 39ms, 0 inserts 0 updates 0 deletes
+11-14 19:03:49.168  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:49.124  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:21): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:49.124  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:22): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:49.304   554  1787 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:49.314   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:49.314   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:03:49.338   794   995 D EGL_emulation: app_time_stats: avg=4278.25ms min=15.74ms max=12791.56ms count=3
+11-14 19:03:49.732   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:50.366  2365  2381 D EGL_emulation: app_time_stats: avg=34.40ms min=8.93ms max=473.16ms count=38
+11-14 19:03:50.869  2365  2372 I .launcher.debug: Compiler allocated 4160KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+11-14 19:03:51.734   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:51.987   795   818 I PermissionControllerServiceImpl: Updating user sensitive for user 0
+11-14 19:03:52.378  2365  2381 D EGL_emulation: app_time_stats: avg=665.08ms min=17.08ms max=1473.80ms count=3
+11-14 19:03:52.380  2365  2465 D TrafficStats: tagSocket(73) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:52.381  2365  2464 D TrafficStats: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+11-14 19:03:52.812   794   995 D EGL_emulation: app_time_stats: avg=1153.50ms min=13.17ms max=3403.75ms count=3
+11-14 19:03:53.436  2365  2381 D EGL_emulation: app_time_stats: avg=130.68ms min=12.96ms max=699.47ms count=8
+11-14 19:03:53.646   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:53.735   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:53.825   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:54.655   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:54.673  2365  2381 D EGL_emulation: app_time_stats: avg=134.55ms min=6.68ms max=657.54ms count=9
+11-14 19:03:54.825   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:55.308   554  2420 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+11-14 19:03:55.663   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:55.697  2365  2381 D EGL_emulation: app_time_stats: avg=48.77ms min=25.33ms max=53.14ms count=21
+11-14 19:03:55.735   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:55.827   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:56.675   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:56.701  2365  2381 D EGL_emulation: app_time_stats: avg=19.68ms min=6.31ms max=33.58ms count=42
+11-14 19:03:56.827   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:57.692   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:57.714  2365  2381 D EGL_emulation: app_time_stats: avg=18.37ms min=7.56ms max=33.34ms count=43
+11-14 19:03:57.761   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:57.844   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:58.706   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:58.725  2365  2381 D EGL_emulation: app_time_stats: avg=23.05ms min=9.20ms max=37.13ms count=40
+11-14 19:03:58.827   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:59.407  2469  2469 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:03:59.427   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:03:59.427  2469  2471 I Gralloc4: mapper 4.x is not supported
+11-14 19:03:59.474  2469  2471 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:59.670   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:03:59.674  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:59.847     0     0 W audit   : audit_lost=3 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:03:59.857     0     0 E audit   : rate limit exceeded
+11-14 19:03:59.691  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:03:59.692  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 17ms, 0 inserts 0 updates 0 deletes
+11-14 19:03:59.692  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:59.672  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:24): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:59.672  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:25): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:59.725   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:59.672  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:26): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:59.732  2365  2381 D EGL_emulation: app_time_stats: avg=22.10ms min=7.23ms max=39.52ms count=40
+11-14 19:03:59.672  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:27): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:59.764   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:59.672  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:28): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:59.830   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:59.879   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:59.882   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:03:59.882   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:03:59.908   794   995 D EGL_emulation: app_time_stats: avg=7095.62ms min=7095.62ms max=7095.62ms count=1
+11-14 19:04:00.769  2365  2381 D EGL_emulation: app_time_stats: avg=38.45ms min=12.12ms max=52.46ms count=26
+11-14 19:04:01.407  2365  2487 D TrafficStats: tagSocket(73) with statsTag=0xffffffff, statsUid=-1
+11-14 19:04:01.409  2365  2486 D TrafficStats: tagSocket(77) with statsTag=0xffffffff, statsUid=-1
+11-14 19:04:01.766   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:01.801  2365  2381 D EGL_emulation: app_time_stats: avg=93.75ms min=42.00ms max=478.47ms count=11
+11-14 19:04:01.930  1349  2145 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-14 19:04:01.930  1349  1349 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-14 19:04:01.931  1349  1349 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-14 19:04:01.933  1349  1349 I Dialer  : VvmTaskReceiver - task received
+11-14 19:04:01.933  1349  1349 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-14 19:04:01.933  1349  1349 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-14 19:04:01.934  1349  1349 I Dialer  : RetryPolicy - retry #1 for com.android.voicemail.impl.ActivationTask@606809a queued, executing in 5000
+11-14 19:04:01.934  1349  1349 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@606809a added
+11-14 19:04:01.934  1349  1349 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-14 19:04:01.934  1349  1349 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-14 19:04:02.212     0     0 I logd    : start watching /data/system/packages.list ...
+11-14 19:04:02.214     0     0 I logd    : ReadPackageList, total packages: 134
+11-14 19:04:02.802  2365  2381 D EGL_emulation: app_time_stats: avg=25.76ms min=6.30ms max=52.98ms count=35
+11-14 19:04:03.770   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:03.771   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:03.829  2365  2381 D EGL_emulation: app_time_stats: avg=18.57ms min=8.15ms max=32.07ms count=45
+11-14 19:04:03.834   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:04.778   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:04.832   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:04.853  2365  2381 D EGL_emulation: app_time_stats: avg=35.94ms min=8.19ms max=187.73ms count=26
+11-14 19:04:05.772   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:05.786   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:05.835   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:05.859  2365  2381 D EGL_emulation: app_time_stats: avg=52.91ms min=15.42ms max=204.51ms count=19
+11-14 19:04:06.794   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:06.837   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:06.859  2365  2381 D EGL_emulation: app_time_stats: avg=35.66ms min=8.01ms max=148.35ms count=27
+11-14 19:04:06.938  1349  2145 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@606809a
+11-14 19:04:06.938  1349  2145 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 1, UserHandle{0} already migrated
+11-14 19:04:06.942   554   848 D OomAdjuster: Not killing cached processes
+11-14 19:04:06.954  1461  1596 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:04:06.955  1349  2145 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-14 19:04:06.955  1349  2145 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-14 19:04:06.957  1461  1498 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:04:06.973   986  1251 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:04:06.973   986  1251 D SmsNumberUtils: destAddr is not formatted.
+11-14 19:04:06.973   986  1251 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:04:06.984   554   584 W BroadcastQueue: Permission Denial: broadcasting Intent { act=com.android.voicemailomtp.sms.REQUEST_SENT flg=0x10 pkg=com.android.dialer } from com.android.dialer (pid=-1, uid=10086) requires com.android.dialer.permission.DIALER_ORIGIN due to registered receiver BroadcastFilter{7a70e9b 10086/u0 ReceiverList{3cbb2aa 1349 com.android.dialer/10086/u0 remote:1b13195}}
+11-14 19:04:07.779   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:07.808   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:07.837   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:07.869  2365  2381 D EGL_emulation: app_time_stats: avg=34.89ms min=9.83ms max=146.98ms count=28
+11-14 19:04:08.820   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:08.836   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:08.893  2365  2381 D EGL_emulation: app_time_stats: avg=34.55ms min=7.87ms max=121.58ms count=28
+11-14 19:04:09.779   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:09.827   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:09.836   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:09.903  2365  2381 D EGL_emulation: app_time_stats: avg=34.77ms min=11.25ms max=94.21ms count=28
+11-14 19:04:10.835   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:10.836   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:10.909  2365  2381 D EGL_emulation: app_time_stats: avg=50.15ms min=26.67ms max=106.20ms count=20
+11-14 19:04:11.779   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:11.842   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:11.845   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:11.914  2365  2381 D EGL_emulation: app_time_stats: avg=29.16ms min=1.89ms max=63.43ms count=32
+11-14 19:04:12.807  2365  2495 D TrafficStats: tagSocket(73) with statsTag=0xffffffff, statsUid=-1
+11-14 19:04:12.809  2365  2496 D TrafficStats: tagSocket(77) with statsTag=0xffffffff, statsUid=-1
+11-14 19:04:12.836   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:12.862   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:12.926  2365  2381 D EGL_emulation: app_time_stats: avg=30.31ms min=7.12ms max=52.73ms count=31
+11-14 19:04:13.788   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:13.837   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:13.887   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:13.928  2365  2381 D EGL_emulation: app_time_stats: avg=23.47ms min=2.98ms max=50.56ms count=37
+11-14 19:04:14.838   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:14.903   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:14.959  2365  2381 D EGL_emulation: app_time_stats: avg=28.34ms min=7.53ms max=51.08ms count=33
+11-14 19:04:15.422   554  2420 D WifiNl80211Manager: Scan result ready event
+11-14 19:04:15.423   554  2420 D WifiNative: Scan result ready event
+11-14 19:04:15.795   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:15.841   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:15.915   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:15.962  2365  2381 D EGL_emulation: app_time_stats: avg=29.12ms min=10.31ms max=54.03ms count=32
+11-14 19:04:16.839   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:16.921   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:16.972  2365  2381 D EGL_emulation: app_time_stats: avg=33.05ms min=9.61ms max=65.37ms count=30
+11-14 19:04:17.361   359  1618 W resolv  : SSL_connect ssl error =5, mark 0xf0064: Connection refused
+11-14 19:04:17.361   359  1618 W resolv  : TLS Handshake failed
+11-14 19:04:17.362   359  1618 W resolv  : query failed
+11-14 19:04:17.362   359  1618 W resolv  : validateDnsTlsServer returned 0 for 10.0.2.3
+11-14 19:04:17.362   359  1618 W resolv  : Validation failed
+11-14 19:04:17.795   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:17.839   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:17.938   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:17.976  2365  2381 D EGL_emulation: app_time_stats: avg=30.85ms min=7.22ms max=57.64ms count=30
+11-14 19:04:18.839   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:18.950   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:19.008  2365  2381 D EGL_emulation: app_time_stats: avg=31.01ms min=10.80ms max=52.32ms count=31
+11-14 19:04:19.797   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:19.841   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:19.965   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:20.013  2365  2381 D EGL_emulation: app_time_stats: avg=30.63ms min=8.36ms max=53.35ms count=31
+11-14 19:04:20.841   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:20.987   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:21.032  2365  2381 D EGL_emulation: app_time_stats: avg=30.60ms min=9.78ms max=53.18ms count=31
+11-14 19:04:21.799   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:21.840   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:21.992   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:22.036  2365  2381 D EGL_emulation: app_time_stats: avg=51.98ms min=10.95ms max=503.68ms count=18
+11-14 19:04:22.812   794   995 D EGL_emulation: app_time_stats: avg=5721.42ms min=0.93ms max=22787.83ms count=4
+11-14 19:04:22.845   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:23.009   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:23.043  2365  2381 D EGL_emulation: app_time_stats: avg=41.96ms min=18.66ms max=68.29ms count=24
+11-14 19:04:23.800   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:23.844   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:24.024   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:24.047  2365  2381 D EGL_emulation: app_time_stats: avg=20.44ms min=7.97ms max=32.95ms count=42
+11-14 19:04:24.843   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:25.040   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:25.063  2365  2381 D EGL_emulation: app_time_stats: avg=19.09ms min=7.51ms max=33.75ms count=42
+11-14 19:04:25.087  2500  2500 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:04:25.097   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:04:25.097  2500  2502 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:25.128  2500  2502 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:25.295   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:04:25.318  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:25.316  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:30): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:25.491     0     0 W audit   : audit_lost=4 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:25.508     0     0 E audit   : rate limit exceeded
+11-14 19:04:25.316  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:31): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:25.316  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:32): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:25.368  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:25.369  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 51ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:25.370  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:25.316  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:33): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:25.316  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:34): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:25.486   554   848 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:25.504   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:25.504   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:04:25.540   794   995 D EGL_emulation: app_time_stats: avg=2727.36ms min=2727.36ms max=2727.36ms count=1
+11-14 19:04:25.812   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:26.563  2365  2381 D EGL_emulation: app_time_stats: avg=53.57ms min=12.50ms max=694.28ms count=27
+11-14 19:04:27.010   554   848 D CompatibilityChangeReporter: Compat change id reported: 149924527; UID 10126; state: ENABLED
+11-14 19:04:27.010   554   848 D CompatibilityChangeReporter: Compat change id reported: 132649864; UID 10126; state: DISABLED
+11-14 19:04:27.813   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:28.574  2365  2381 D EGL_emulation: app_time_stats: avg=149.09ms min=10.27ms max=1173.45ms count=13
+11-14 19:04:29.078   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:29.602  2365  2381 D EGL_emulation: app_time_stats: avg=84.36ms min=7.94ms max=535.61ms count=12
+11-14 19:04:29.815   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:29.844   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:30.085   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:30.619  2365  2381 D EGL_emulation: app_time_stats: avg=31.05ms min=2.39ms max=53.23ms count=31
+11-14 19:04:30.844   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:31.095   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:31.626  2365  2381 D EGL_emulation: app_time_stats: avg=21.92ms min=7.72ms max=34.16ms count=41
+11-14 19:04:31.828   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:31.849   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:32.104   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:32.636  2365  2381 D EGL_emulation: app_time_stats: avg=29.39ms min=8.08ms max=53.35ms count=32
+11-14 19:04:32.850   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:33.113   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:33.659  2365  2381 D EGL_emulation: app_time_stats: avg=30.46ms min=7.73ms max=50.84ms count=31
+11-14 19:04:33.831   554   848 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:33.850   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:34.137   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:34.668  2365  2381 D EGL_emulation: app_time_stats: avg=21.37ms min=6.60ms max=39.70ms count=41
+11-14 19:04:34.844   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:35.150   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:35.571  2519  2519 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:04:35.582   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:04:35.584  2519  2521 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:35.611  2519  2521 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:35.686  2365  2381 D EGL_emulation: app_time_stats: avg=48.45ms min=26.40ms max=54.47ms count=21
+11-14 19:04:35.705   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:04:35.709  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:35.704  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:36): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:35.704  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:37): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:35.881     0     0 W audit   : audit_lost=5 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:35.889     0     0 E audit   : rate limit exceeded
+11-14 19:04:35.704  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:38): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:35.731  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:35.733  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 24ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:35.733  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:35.704  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:39): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:35.704  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:40): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:35.802   554   781 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:35.804   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:35.804   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:04:35.816   794   995 D EGL_emulation: app_time_stats: avg=3425.36ms min=17.25ms max=10224.74ms count=3
+11-14 19:04:35.854   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:36.830  2365  2381 D EGL_emulation: app_time_stats: avg=95.27ms min=25.71ms max=627.25ms count=12
+11-14 19:04:37.856   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:38.830  2365  2381 D EGL_emulation: app_time_stats: avg=113.47ms min=7.48ms max=1139.00ms count=17
+11-14 19:04:39.849   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:39.863   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:39.875  2365  2381 D EGL_emulation: app_time_stats: avg=1045.13ms min=1045.13ms max=1045.13ms count=1
+11-14 19:04:40.202   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:40.850   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:40.876  2365  2381 D EGL_emulation: app_time_stats: avg=45.44ms min=16.17ms max=50.91ms count=22
+11-14 19:04:41.216   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:41.766     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+11-14 19:04:41.850   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:41.878  2365  2381 D EGL_emulation: app_time_stats: avg=22.10ms min=7.43ms max=34.60ms count=40
+11-14 19:04:41.881   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:42.223   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:42.870   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:42.890  2365  2381 D EGL_emulation: app_time_stats: avg=22.29ms min=8.38ms max=34.66ms count=41
+11-14 19:04:43.232   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:43.853   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:43.882   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:43.910  2365  2381 D EGL_emulation: app_time_stats: avg=46.26ms min=24.47ms max=54.32ms count=22
+11-14 19:04:44.240   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:44.857   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:44.935  2365  2381 D EGL_emulation: app_time_stats: avg=23.89ms min=11.76ms max=35.55ms count=41
+11-14 19:04:45.253   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:45.854   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:45.886   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:45.941  2365  2381 D EGL_emulation: app_time_stats: avg=45.71ms min=20.61ms max=51.70ms count=22
+11-14 19:04:46.268   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:46.854   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:46.985  2365  2381 D EGL_emulation: app_time_stats: avg=22.88ms min=8.65ms max=49.33ms count=41
+11-14 19:04:47.277   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:47.855   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:47.889   554   781 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:47.892  2538  2538 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:04:47.898   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:04:47.898  2538  2540 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:47.942  2538  2540 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:47.990  2365  2381 D EGL_emulation: app_time_stats: avg=42.79ms min=12.17ms max=54.19ms count=23
+11-14 19:04:48.075   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:04:48.094  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:48.092  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:42): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:48.117  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:48.117  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 22ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:48.118  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:48.092  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:43): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:48.092  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:44): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:48.267     0     0 W audit   : audit_lost=6 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:48.277     0     0 E audit   : rate limit exceeded
+11-14 19:04:48.092  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:45): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:48.092  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:46): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:48.194   554  1022 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:48.205   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:48.205   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:04:48.219   794   995 D EGL_emulation: app_time_stats: avg=4122.45ms min=3.44ms max=12324.89ms count=3
+11-14 19:04:49.247  2365  2381 D EGL_emulation: app_time_stats: avg=31.15ms min=8.78ms max=348.08ms count=36
+11-14 19:04:49.890   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:51.248  2365  2381 D EGL_emulation: app_time_stats: avg=179.80ms min=10.52ms max=1300.48ms count=11
+11-14 19:04:51.858   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:51.892   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:52.253  2365  2381 D EGL_emulation: app_time_stats: avg=111.57ms min=33.17ms max=624.74ms count=9
+11-14 19:04:52.331   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:52.857   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:53.260  2365  2381 D EGL_emulation: app_time_stats: avg=35.50ms min=9.81ms max=54.15ms count=28
+11-14 19:04:53.345   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:53.858   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:53.896   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:54.286  2365  2381 D EGL_emulation: app_time_stats: avg=26.50ms min=6.64ms max=52.88ms count=34
+11-14 19:04:54.355   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:54.858   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:54.991   391   391 E android.hardware.power.stats@1.0-service-mock: Failed to getEnergyData
+11-14 19:04:55.291  2365  2381 D EGL_emulation: app_time_stats: avg=31.17ms min=5.78ms max=50.89ms count=30
+11-14 19:04:55.370   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:55.860   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:55.915   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:56.319  2365  2381 D EGL_emulation: app_time_stats: avg=28.12ms min=11.73ms max=50.66ms count=34
+11-14 19:04:56.388   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:56.859   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:57.345  2365  2381 D EGL_emulation: app_time_stats: avg=31.90ms min=7.35ms max=53.30ms count=30
+11-14 19:04:57.399   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:57.859   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:57.929   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:58.385  2365  2381 D EGL_emulation: app_time_stats: avg=29.39ms min=10.68ms max=51.30ms count=33
+11-14 19:04:58.410   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:58.859   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:59.386  2365  2381 D EGL_emulation: app_time_stats: avg=29.84ms min=8.09ms max=53.20ms count=31
+11-14 19:04:59.425   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:59.861   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:04:59.929   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:00.014   794   995 D EGL_emulation: app_time_stats: avg=3931.80ms min=17.80ms max=11744.36ms count=3
+11-14 19:05:00.298  2556  2556 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:05:00.310   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:05:00.311  2556  2558 I Gralloc4: mapper 4.x is not supported
+11-14 19:05:00.359  2556  2558 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:05:00.401  2365  2381 D EGL_emulation: app_time_stats: avg=23.39ms min=9.16ms max=38.35ms count=40
+11-14 19:05:00.445   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:00.503   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:05:00.507  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:00.504  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:48): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:00.686     0     0 W audit   : audit_lost=7 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:05:00.702     0     0 E audit   : rate limit exceeded
+11-14 19:05:00.512  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:49): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:00.538  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:05:00.538  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 24ms, 0 inserts 0 updates 0 deletes
+11-14 19:05:00.539  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:00.512  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:50): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:00.512  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:51): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:00.512  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:52): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:00.653   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:05:00.666   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:00.666   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:05:01.730  2365  2381 D EGL_emulation: app_time_stats: avg=74.63ms min=9.85ms max=844.22ms count=17
+11-14 19:05:01.930   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:03.730  2365  2381 D EGL_emulation: app_time_stats: avg=282.12ms min=10.44ms max=1435.24ms count=7
+11-14 19:05:03.930   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:04.477   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:04.752  2365  2381 D EGL_emulation: app_time_stats: avg=170.31ms min=45.58ms max=776.49ms count=6
+11-14 19:05:04.870   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:05.486   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:05.758  2365  2381 D EGL_emulation: app_time_stats: avg=37.12ms min=3.46ms max=51.97ms count=26
+11-14 19:05:05.863   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:05.945   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:06.520   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:06.802  2365  2381 D EGL_emulation: app_time_stats: avg=24.36ms min=9.92ms max=51.57ms count=37
+11-14 19:05:06.870   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:06.980  1349  2145 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-14 19:05:06.980  1349  1349 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-14 19:05:06.981   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:05:06.981  1349  1349 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-14 19:05:06.982  1349  1349 I Dialer  : VvmTaskReceiver - task received
+11-14 19:05:06.982  1349  1349 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-14 19:05:06.982  1349  1349 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-14 19:05:06.982  1349  1349 I Dialer  : RetryPolicy - retry #2 for com.android.voicemail.impl.ActivationTask@7b6423e queued, executing in 5000
+11-14 19:05:06.982  1349  1349 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@7b6423e added
+11-14 19:05:06.982  1349  1349 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-14 19:05:06.982  1349  1349 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-14 19:05:07.520   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:07.812  2365  2381 D EGL_emulation: app_time_stats: avg=38.74ms min=18.58ms max=53.39ms count=26
+11-14 19:05:07.864   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:07.953   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:08.531   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:08.853  2365  2381 D EGL_emulation: app_time_stats: avg=25.85ms min=8.40ms max=51.81ms count=37
+11-14 19:05:08.869   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:09.539   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:09.867   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:09.876  2365  2381 D EGL_emulation: app_time_stats: avg=34.85ms min=2.78ms max=53.12ms count=28
+11-14 19:05:09.976   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:10.556   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:10.877   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:10.896  2365  2381 D EGL_emulation: app_time_stats: avg=21.64ms min=7.14ms max=32.50ms count=42
+11-14 19:05:11.574   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:11.868   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:11.935  2365  2381 D EGL_emulation: app_time_stats: avg=26.24ms min=9.22ms max=52.17ms count=37
+11-14 19:05:11.979   554  2420 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:11.986  1349  2145 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@7b6423e
+11-14 19:05:11.986  1349  2145 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, 1, UserHandle{0} already migrated
+11-14 19:05:11.993   554  2420 D OomAdjuster: Not killing cached processes
+11-14 19:05:12.003  1461  1498 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:05:12.004  1349  2145 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-14 19:05:12.004  1349  2145 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-14 19:05:12.006  1461  1498 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:05:12.009   986  1251 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:05:12.010   986  1251 D SmsNumberUtils: destAddr is not formatted.
+11-14 19:05:12.010   986  1251 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:05:12.015   554   584 W BroadcastQueue: Permission Denial: broadcasting Intent { act=com.android.voicemailomtp.sms.REQUEST_SENT flg=0x10 pkg=com.android.dialer } from com.android.dialer (pid=-1, uid=10086) requires com.android.dialer.permission.DIALER_ORIGIN due to registered receiver BroadcastFilter{8d30e99 10086/u0 ReceiverList{b3dbe0 1349 com.android.dialer/10086/u0 remote:32405e3}}
+11-14 19:05:12.024   554   575 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+11-14 19:05:12.581   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:12.765  2574  2574 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:05:12.774   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:05:12.775  2574  2576 I Gralloc4: mapper 4.x is not supported
+11-14 19:05:12.800  2574  2576 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:05:12.868   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:12.926  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:12.924  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:54): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.951  2365  2381 D EGL_emulation: app_time_stats: avg=35.12ms min=9.48ms max=56.08ms count=27
+11-14 19:05:12.957  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:05:12.958  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 31ms, 0 inserts 0 updates 0 deletes
+11-14 19:05:12.958  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:12.924  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:55): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:13.099     0     0 W audit   : audit_lost=8 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:05:13.123     0     0 E audit   : rate limit exceeded
+11-14 19:05:12.924  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:56): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.924  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:57): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.924  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:58): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:13.057   554  1022 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:05:13.070   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:13.070   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:05:13.086   794   995 D EGL_emulation: app_time_stats: avg=3265.48ms min=1.57ms max=12320.98ms count=4
+11-14 19:05:13.980   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:14.096  2365  2381 D EGL_emulation: app_time_stats: avg=37.53ms min=8.36ms max=462.92ms count=28
+11-14 19:05:15.982   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:16.097  2365  2381 D EGL_emulation: app_time_stats: avg=497.07ms min=13.62ms max=1459.20ms count=4
+11-14 19:05:16.624   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:16.869   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:17.136  2365  2381 D EGL_emulation: app_time_stats: avg=94.47ms min=46.34ms max=542.60ms count=11
+11-14 19:05:17.632   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:17.871   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:18.000   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:18.152  2365  2381 D EGL_emulation: app_time_stats: avg=30.38ms min=6.77ms max=53.20ms count=31
+11-14 19:05:18.646   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:18.871   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:19.159  2365  2381 D EGL_emulation: app_time_stats: avg=21.14ms min=7.36ms max=35.64ms count=42
+11-14 19:05:19.659   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:19.879   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:20.029   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:20.159  2365  2381 D EGL_emulation: app_time_stats: avg=19.61ms min=6.93ms max=35.26ms count=42
+11-14 19:05:20.670   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:20.881   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:21.179  2365  2381 D EGL_emulation: app_time_stats: avg=21.29ms min=8.99ms max=32.66ms count=42
+11-14 19:05:21.686   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:21.874   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:22.029   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:22.219  2365  2381 D EGL_emulation: app_time_stats: avg=29.37ms min=7.67ms max=50.91ms count=33
+11-14 19:05:22.695   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:22.872   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:23.244  2365  2381 D EGL_emulation: app_time_stats: avg=31.48ms min=11.80ms max=51.32ms count=31
+11-14 19:05:23.712   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:23.871   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:24.045   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:24.253  2365  2381 D EGL_emulation: app_time_stats: avg=28.55ms min=7.48ms max=51.66ms count=32
+11-14 19:05:24.724   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:24.872   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:25.152  2592  2592 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-14 19:05:25.184   209   209 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+11-14 19:05:25.185  2592  2594 I Gralloc4: mapper 4.x is not supported
+11-14 19:05:25.227  2592  2594 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:05:25.263  2365  2381 D EGL_emulation: app_time_stats: avg=31.76ms min=12.79ms max=50.70ms count=31
+11-14 19:05:25.329   554   584 D OomAdjuster: Not killing cached processes
+11-14 19:05:25.336  1398  1845 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:25.332  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:60): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:25.515     0     0 W audit   : audit_lost=9 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:05:25.517     0     0 E audit   : rate limit exceeded
+11-14 19:05:25.371  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:05:25.340  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:61): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:25.373  1398  1845 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 30ms, 0 inserts 0 updates 0 deletes
+11-14 19:05:25.375  1398  1845 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:25.340  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:62): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:25.340  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:63): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:25.340  1398  1398 W com.android.providers.media.module: type=1400 audit(0.0:64): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-32" ino=65538 scontext=u:r:mediaprovider_app:s0:c112,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:25.444   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:05:25.451   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:25.451   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda9@99c334f
+11-14 19:05:25.476   794   995 D EGL_emulation: app_time_stats: avg=4125.05ms min=9.24ms max=12339.77ms count=3
+11-14 19:05:26.047   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:26.480  2365  2381 D EGL_emulation: app_time_stats: avg=73.75ms min=11.60ms max=727.29ms count=16
+11-14 19:05:26.955  2365  2365 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10126; state: ENABLED
+11-14 19:05:28.049   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:28.480  2365  2381 D EGL_emulation: app_time_stats: avg=660.78ms min=7.00ms max=1392.90ms count=3
+11-14 19:05:29.473   554   574 D AutofillManagerService: onBackKeyPressed()
+11-14 19:05:29.473   554   574 D AutofillManagerServiceImpl: Reset component for user 0:
+11-14 19:05:29.473   554   574 D AutofillUI: destroySaveUiUiThread(): already destroyed
+11-14 19:05:29.489  2365  2381 D EGL_emulation: app_time_stats: avg=1009.14ms min=1009.14ms max=1009.14ms count=1
+11-14 19:05:29.766   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:29.872   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:30.052   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:30.497  2365  2381 D EGL_emulation: app_time_stats: avg=251.72ms min=18.57ms max=666.52ms count=4
+11-14 19:05:30.774   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:30.873   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:31.536  2365  2381 D EGL_emulation: app_time_stats: avg=64.91ms min=46.21ms max=292.42ms count=16
+11-14 19:05:31.783   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:31.873   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:32.054   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:32.563  2365  2381 D EGL_emulation: app_time_stats: avg=25.03ms min=8.59ms max=57.13ms count=36
+11-14 19:05:32.792   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:32.875   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:33.569  2365  2381 D EGL_emulation: app_time_stats: avg=37.28ms min=6.57ms max=51.18ms count=26
+11-14 19:05:33.800   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:33.874   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:34.065   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:34.573  2365  2381 D EGL_emulation: app_time_stats: avg=24.24ms min=7.02ms max=50.42ms count=36
+11-14 19:05:34.819   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:34.873   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:35.414   554  1787 D WifiNl80211Manager: Scan result ready event
+11-14 19:05:35.414   554  1787 D WifiNative: Scan result ready event
+11-14 19:05:35.579  2365  2381 D EGL_emulation: app_time_stats: avg=21.21ms min=8.35ms max=32.76ms count=41
+11-14 19:05:35.839   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:35.875   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:36.067   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:36.581  2365  2381 D EGL_emulation: app_time_stats: avg=19.09ms min=7.13ms max=36.45ms count=43
+11-14 19:05:36.849   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:36.873   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:37.614  2365  2381 D EGL_emulation: app_time_stats: avg=21.60ms min=7.24ms max=35.25ms count=41
+11-14 19:05:37.868   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:37.877   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:38.072   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:38.625  2365  2381 D EGL_emulation: app_time_stats: avg=21.21ms min=7.47ms max=32.54ms count=42
+11-14 19:05:38.876   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:38.877   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:39.626  2365  2381 D EGL_emulation: app_time_stats: avg=22.48ms min=11.19ms max=33.05ms count=41
+11-14 19:05:39.883   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:39.894   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:40.074   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:40.669  2365  2381 D EGL_emulation: app_time_stats: avg=36.76ms min=8.99ms max=50.55ms count=28
+11-14 19:05:40.877   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:40.906   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:41.766     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+11-14 19:05:41.672  2365  2381 D EGL_emulation: app_time_stats: avg=24.56ms min=6.93ms max=50.59ms count=36
+11-14 19:05:41.887   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:41.918   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:42.075   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:42.703  2365  2381 D EGL_emulation: app_time_stats: avg=37.86ms min=12.14ms max=51.25ms count=26
+11-14 19:05:42.877   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:42.933   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:43.710  2365  2381 D EGL_emulation: app_time_stats: avg=23.66ms min=7.24ms max=50.72ms count=37
+11-14 19:05:43.879   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:43.953   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:44.092   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:44.742  2365  2381 D EGL_emulation: app_time_stats: avg=18.52ms min=7.69ms max=34.02ms count=45
+11-14 19:05:44.878   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:44.965   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:45.743  2365  2381 D EGL_emulation: app_time_stats: avg=18.63ms min=8.06ms max=32.44ms count=44
+11-14 19:05:45.879   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:45.976   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:46.095   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:46.753  2365  2381 D EGL_emulation: app_time_stats: avg=39.37ms min=11.01ms max=51.60ms count=25
+11-14 19:05:46.879   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:46.991   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:47.769  2365  2381 D EGL_emulation: app_time_stats: avg=48.36ms min=27.85ms max=52.90ms count=21
+11-14 19:05:47.879   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:48.006   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:48.115   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:48.795  2365  2381 D EGL_emulation: app_time_stats: avg=23.35ms min=8.03ms max=50.08ms count=39
+11-14 19:05:48.884   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:49.013   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:49.836  2365  2381 D EGL_emulation: app_time_stats: avg=40.14ms min=11.30ms max=51.64ms count=25
+11-14 19:05:49.879   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:50.024   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:50.129   554  1787 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:50.841  2365  2381 D EGL_emulation: app_time_stats: avg=23.15ms min=9.09ms max=46.80ms count=39
+11-14 19:05:50.895   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:51.032   554   573 W AlarmManager: Unrecognized alarm listener com.android.server.location.gnss.GnssLocationProvider$$ExternalSyntheticLambda10@b58f77b
+11-14 19:05:51.697     0     0 I logd    : logdr: UID=2000 GID=2000 PID=2617 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns

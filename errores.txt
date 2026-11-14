@@ -1,0 +1,32 @@
+3:11-14 19:03:10.327   554  2221 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11:11-14 19:03:10.331   554  2221 V SplashScreenExceptionList: SplashScreen checking exception for package com.stradaos.launcher.debug (target sdk:28) -> false
+18:11-14 19:03:10.342   554  1713 D CoreBackPreview: Window{7e1e5bc u0 Splash Screen com.stradaos.launcher.debug}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@cae689a, mPriority=0}
+25:11-14 19:03:10.367   554   585 I ActivityManager: Start proc 2365:com.stradaos.launcher.debug/u0a126 for next-top-activity {com.stradaos.launcher.debug/com.stradaos.launcher.Main}
+40:11-14 19:03:10.567  2365  2365 W ziparchive: Unable to open '/data/app/~~EEfTI_A1IM_fjMBLrPDsuQ==/com.stradaos.launcher.debug-nZIdJSc0aSUDr4Mnnie93w==/base.dm': No such file or directory
+41:11-14 19:03:10.567  2365  2365 W ziparchive: Unable to open '/data/app/~~EEfTI_A1IM_fjMBLrPDsuQ==/com.stradaos.launcher.debug-nZIdJSc0aSUDr4Mnnie93w==/base.dm': No such file or directory
+42:11-14 19:03:10.576  2365  2365 V GraphicsEnvironment: ANGLE Developer option for 'com.stradaos.launcher.debug' set to: 'default'
+43:11-14 19:03:10.577  2365  2365 V GraphicsEnvironment: ANGLE GameManagerService for com.stradaos.launcher.debug: false
+54:11-14 19:03:10.650   554  1418 D CoreBackPreview: Window{79b3b11 u0 com.stradaos.launcher.debug/com.stradaos.launcher.Main}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6d18a77, mPriority=0}
+73:11-14 19:03:10.840   554   573 W ziparchive: Unable to open '/data/app/~~EEfTI_A1IM_fjMBLrPDsuQ==/com.stradaos.launcher.debug-nZIdJSc0aSUDr4Mnnie93w==/base.dm': No such file or directory
+74:11-14 19:03:10.840   554   573 I ActivityTaskManager: Displayed com.stradaos.launcher.debug/com.stradaos.launcher.Main: +512ms
+77:11-14 19:03:10.873   554  1418 W InputManager-JNI: Input channel object '7e1e5bc Splash Screen com.stradaos.launcher.debug (client)' was disposed without first being removed with the input manager!
+78:11-14 19:03:10.874   554  1027 D CoreBackPreview: Window{7e1e5bc u0 Splash Screen com.stradaos.launcher.debug EXITING}: Setting back callback null
+194:11-14 19:03:30.408   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+218:11-14 19:03:36.470   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+228:11-14 19:03:38.758   554   733 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: No module info for package: com.android.wifi
+291:11-14 19:03:49.166  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+296:11-14 19:03:49.304   554  1787 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+339:11-14 19:03:59.691  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+351:11-14 19:03:59.879   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+482:11-14 19:04:25.368  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+487:11-14 19:04:25.486   554   848 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+531:11-14 19:04:35.731  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+536:11-14 19:04:35.802   554   781 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+583:11-14 19:04:48.117  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+592:11-14 19:04:48.194   554  1022 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+643:11-14 19:05:00.538  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+649:11-14 19:05:00.653   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+716:11-14 19:05:12.957  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+725:11-14 19:05:13.057   554  1022 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+773:11-14 19:05:25.371  1398  1845 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+780:11-14 19:05:25.444   554  2420 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
