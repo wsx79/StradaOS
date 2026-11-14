@@ -1,0 +1,50 @@
+7:11-14 19:02:56.774  2283  2283 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10:11-14 19:02:56.775  2283  2283 I AndroidRuntime: Using default boot image
+12:11-14 19:02:56.775  2283  2283 I AndroidRuntime: Leaving lock profiling enabled
+23:11-14 19:02:56.831  2283  2283 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+27:11-14 19:02:56.844  2283  2283 D AndroidRuntime: Shutting down VM
+45:11-14 19:02:57.414  1487  1508 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.stradaos.launcher.debug. Reason: op android:read_external_storage
+46:11-14 19:02:57.422   506   564 V BackupManagerService: [UserID:0] restoreAtInstall pkg=com.stradaos.launcher.debug token=1 restoreSet=0
+51:11-14 19:02:57.433  1487  1508 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.stradaos.launcher.debug. Reason: op android:read_external_storage
+53:11-14 19:02:57.434   738  2305 E BackupHelper: java.io.FileNotFoundException: /data/user_de/0/com.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+66:11-14 19:02:57.434   738  2305 E BackupHelper: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+77:11-14 19:02:57.445   506   547 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.stradaos.launcher.debug flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+78:11-14 19:02:57.445   506   547 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.stradaos.launcher.debug flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+79:11-14 19:02:57.446  1487  1487 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.stradaos.launcher.debug. Reason: package android.intent.action.PACKAGE_ADDED
+83:11-14 19:02:57.447   698   698 D AvrcpMediaPlayerList: Name of package changed: com.stradaos.launcher.debug
+96:11-14 19:02:57.679   506   995 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+106:11-14 19:02:57.703   506   548 I ActivityManager: Start proc 2323:com.stradaos.launcher.debug/u0a130 for pre-top-activity {com.stradaos.launcher.debug/com.stradaos.launcher.Main}
+154:11-14 19:02:58.068   506   546 D ArtManagerInternalImpl: /data/misc/iorapd/com.stradaos.launcher.debug/51/com.stradaos.launcher.Main/compiled_traces/compiled_trace.pb doesn't exist
+155:11-14 19:02:58.068   506   546 I ActivityTaskManager: Displayed com.stradaos.launcher.debug/com.stradaos.launcher.Main: +388ms
+157:11-14 19:02:58.164  2323  2323 I TetheringManager: registerTetheringEventCallback:com.stradaos.launcher.debug
+193:11-14 19:03:02.688   426  2319 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.stradaos.launcher.debug/51/com.stradaos.launcher.Main/raw_traces/1794682982687856614.perfetto_trace.pb
+200:11-14 19:03:07.312   506   652 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: com.google.android.wifi
+236:11-14 19:03:17.728   506  2382 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+250:11-14 19:03:23.771   506   995 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+285:11-14 19:03:36.391  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+291:11-14 19:03:36.470   506  1214 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+316:11-14 19:03:39.058   506  2436 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/base.apk pkg=com.stradaos.launcher.debug isa=x86_64 dexoptFlags=boot_complete,debuggable,public,enable_hidden_api_checks targetFilter=verify oatDir=/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/oat classLoaderContext=PCL[]{PCL[/system/framework/android.test.base.jar]}
+317:11-14 19:03:39.058   425   582 V installd: DexInv: --- BEGIN '/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/base.apk' ---
+319:11-14 19:03:39.067  2441  2441 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --debuggable --classpath-dir=/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=boot
+322:11-14 19:03:39.131   425   582 V installd: DexInv: --- END '/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/base.apk' (success) ---
+326:11-14 19:03:39.154   506  2436 I BackgroundDexOptService: Pinning optimized code {android, com.stradaos.launcher.debug}
+328:11-14 19:03:39.154   506  2436 D IorapForwardingService: onPackagesUpdated: com.stradaos.launcher.debug
+360:11-14 19:03:46.830  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+365:11-14 19:03:46.901   506  1214 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+426:11-14 19:04:12.159  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+435:11-14 19:04:12.239   506  1214 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+471:11-14 19:04:22.487  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+478:11-14 19:04:22.546   506  1103 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+501:11-14 19:04:34.863  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+511:11-14 19:04:34.957   506  1103 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+535:11-14 19:04:47.318  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+545:11-14 19:04:47.402   506  2382 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+580:11-14 19:04:59.696  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+593:11-14 19:04:59.826   506  1789 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+614:11-14 19:05:12.059  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+619:11-14 19:05:12.121   506   995 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+626:11-14 19:05:16.197  2613  2613 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+629:11-14 19:05:16.204  2613  2613 I AndroidRuntime: Using default boot image
+631:11-14 19:05:16.204  2613  2613 I AndroidRuntime: Leaving lock profiling enabled
+642:11-14 19:05:16.280  2613  2613 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+647:11-14 19:05:16.287  2613  2613 D AndroidRuntime: Shutting down VM

@@ -1,0 +1,660 @@
+--------- beginning of main
+11-14 19:02:54.641   698   698 D AvrcpBrowsablePlayerConnector: Received a message: msg.what=2
+11-14 19:02:54.641   698   698 V AvrcpBrowsablePlayerConnector: Timed out waiting for players
+11-14 19:02:54.641   698   698 I AvrcpBrowsablePlayerConnector: Successfully connected to 0 browsable players.
+11-14 19:02:54.641   698   698 I AvrcpMediaPlayerList: init: Browsable Player list size is 0
+11-14 19:02:54.641   698   698 D AvrcpMediaPlayerList: Initializing list of current media players
+11-14 19:02:56.774  2283  2283 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-14 19:02:56.775  2283  2283 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-14 19:02:56.775  2283  2283 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-14 19:02:56.775  2283  2283 I AndroidRuntime: Using default boot image
+11-14 19:02:56.775  2283  2283 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-14 19:02:56.775  2283  2283 I AndroidRuntime: Leaving lock profiling enabled
+11-14 19:02:56.775  2283  2283 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-14 19:02:56.776  2283  2283 I app_process: Core platform API reporting enabled, enforcing=false
+11-14 19:02:56.772  2283  2283 W app_process: type=1400 audit(0.0:12): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=218 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-14 19:02:56.772  2283  2283 I chatty  : uid=2000(shell) app_process identical 2 lines
+11-14 19:02:56.772  2283  2283 W app_process: type=1400 audit(0.0:15): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=218 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-14 19:02:56.820  2283  2283 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-14 19:02:56.820  2283  2283 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-14 19:02:56.822  2283  2283 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:02:56.823  2283  2283 I app_process: The ClassLoaderContext is a special shared library.
+11-14 19:02:56.829  2283  2283 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-14 19:02:56.831  2283  2283 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-14 19:02:56.838   906   906 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=39468, downTime=39468, deviceId=-1, source=0x0, displayId=-1 }
+11-14 19:02:56.839   906   906 D TaplEvents: Main / Key event: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=39468, downTime=39468, deviceId=-1, source=0x0, displayId=-1 }
+11-14 19:02:56.839   906   906 D TaplTarget: Opening options popup on key up
+11-14 19:02:56.844  2283  2283 D AndroidRuntime: Shutting down VM
+--------- beginning of system
+11-14 19:02:56.845   506   538 D AutofillManagerService: Close system dialogs
+11-14 19:02:56.845   717   717 V ShadeControllerImpl: NotificationShadeWindow: com.android.systemui.statusbar.phone.NotificationShadeWindowView{4e3a8c7 I.E...... ......ID 0,0-1280,720} canPanelBeCollapsed(): false
+11-14 19:02:57.317  2297  2297 I abb     : StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+11-14 19:02:57.330  2297  2301 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:02:57.316   506   506 W Binder:506_10: type=1400 audit(0.0:16): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+--------- beginning of kernel
+11-14 19:02:57.597     0     0 W audit   : audit_lost=1 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:02:57.606     0     0 E audit   : rate limit exceeded
+11-14 19:02:57.331  2297  2297 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+11-14 19:02:57.385   506   602 W RuleEvaluation: Integrity rule files are not available.
+11-14 19:02:57.388   506   564 I PackageManager: Integrity check passed for file:///data/app/vmdl288960518.tmp
+11-14 19:02:57.393   506   564 D CompatibilityChangeReporter: Compat change id reported: 133396946; UID -1; state: DISABLED
+11-14 19:02:57.394   506   564 D CompatibilityChangeReporter: Compat change id reported: 135549675; UID 10130; state: DISABLED
+11-14 19:02:57.414   506   564 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+11-14 19:02:57.414   506   564 D PackageManager: Clear ephemeral installer activity
+11-14 19:02:57.414   506   538 V StorageManagerService: Package null does not have legacy storage
+11-14 19:02:57.414  1487  1508 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.stradaos.launcher.debug. Reason: op android:read_external_storage
+11-14 19:02:57.422   506   564 V BackupManagerService: [UserID:0] restoreAtInstall pkg=com.stradaos.launcher.debug token=1 restoreSet=0
+11-14 19:02:57.423   506   564 V BackupManagerService: [UserID:0] Finishing install immediately
+11-14 19:02:57.424   506   538 V StorageManagerService: Package null has legacy storage
+11-14 19:02:57.426   506   564 I PackageManager: Result set changed, dropping preferred activity for Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME,android.intent.category.DEFAULT] } type null
+11-14 19:02:57.424  1487  1508 I chatty  : uid=10128(com.android.providers.media.module) Binder:1487_1 identical 4 lines
+11-14 19:02:57.433  1487  1508 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.stradaos.launcher.debug. Reason: op android:read_external_storage
+11-14 19:02:57.434   738  2305 E BackupHelper: Could not parse delayed permissions
+11-14 19:02:57.434   738  2305 E BackupHelper: java.io.FileNotFoundException: /data/user_de/0/com.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:492)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at android.app.ContextImpl.openFileInput(ContextImpl.java:636)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:338)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:413)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:407)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4$PermissionControllerServiceImpl(Unknown Source:0)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at com.android.permissioncontroller.permission.service.-$$Lambda$PermissionControllerServiceImpl$mE7NqZpMEJTKa_y63m6czFzewlg.run(Unknown Source:8)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at java.lang.Thread.run(Thread.java:923)
+11-14 19:02:57.434   738  2305 E BackupHelper: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at libcore.io.Linux.open(Native Method)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7542)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	at libcore.io.IoBridge.open(IoBridge.java:478)
+11-14 19:02:57.434   738  2305 E BackupHelper: 	... 11 more
+11-14 19:02:57.435   425   582 E installd: Couldn't opendir /data/app/vmdl288960518.tmp: No such file or directory
+11-14 19:02:57.435   425   582 E installd: Failed to delete /data/app/vmdl288960518.tmp: No such file or directory
+11-14 19:02:57.438  2297  2302 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:02:57.445   506   547 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.stradaos.launcher.debug flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+11-14 19:02:57.445   506   547 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.stradaos.launcher.debug flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+11-14 19:02:57.446  1487  1487 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.stradaos.launcher.debug. Reason: package android.intent.action.PACKAGE_ADDED
+11-14 19:02:57.446   506   598 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+11-14 19:02:57.447   506   506 I Telecom : PhoneAccountRegistrar: getSimCallManager: SimCallManager for subId 1 queried, returning: null: TSI.gSCMFU@AH4
+11-14 19:02:57.447   698   698 V AvrcpMediaPlayerList: mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+11-14 19:02:57.447   698   698 D AvrcpMediaPlayerList: Name of package changed: com.stradaos.launcher.debug
+11-14 19:02:57.451   506   538 I RoleManagerService: Granting default roles...
+11-14 19:02:57.454   506   506 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AH8
+11-14 19:02:57.457   738  2262 I PermissionControllerServiceImpl: Updating user sensitive for uid 10130
+11-14 19:02:57.460   506   546 W VoiceInteractionManager: no available voice recognition services found for user 0
+11-14 19:02:57.462   506   506 V BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
+11-14 19:02:57.462   506   506 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+11-14 19:02:57.462   506   506 V BackupManagerConstants: getFullBackupRequireCharging(...) returns true
+11-14 19:02:57.472  1058  1058 D CarrierSvcBindHelper: No carrier app for: 0
+11-14 19:02:57.478   506   993 D CompatibilityChangeReporter: Compat change id reported: 149924527; UID 2000; state: ENABLED
+11-14 19:02:57.479   506   993 D CompatibilityChangeReporter: Compat change id reported: 132649864; UID 2000; state: DISABLED
+11-14 19:02:57.480  1058  1058 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+11-14 19:02:57.678   506   541 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+11-14 19:02:57.679   506   995 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:02:57.679   412   412 I perfetto: ing_service_impl.cc:758 Configured tracing session 5, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-14 19:02:57.680   410   410 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=5)
+11-14 19:02:57.683   506   541 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10130; state: DISABLED
+11-14 19:02:57.683   506   548 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10130; state: DISABLED
+11-14 19:02:57.686   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+11-14 19:02:57.687  2315  2317 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:02:57.689   410   410 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-14 19:02:57.966     0     0 W perfetto: enabled ftrace
+11-14 19:02:57.702   283   283 D Zygote  : Forked child process 2323
+11-14 19:02:57.703   506   548 I ActivityManager: Start proc 2323:com.stradaos.launcher.debug/u0a130 for pre-top-activity {com.stradaos.launcher.debug/com.stradaos.launcher.Main}
+11-14 19:02:57.707   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3f8384000 0x3f8708000]
+11-14 19:02:57.718  2323  2323 I .launcher.debu: Late-enabling -Xcheck:jni
+11-14 19:02:57.732  2323  2323 I .launcher.debu: Unquickening 12 vdex files!
+11-14 19:02:57.742  2323  2323 W .launcher.debu: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:02:57.765   392   401 I adbd    : jdwp connection from 2323
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.769   506   995 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+11-14 19:02:57.801  2323  2323 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-14 19:02:57.819  2323  2323 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:02:57.819  2323  2323 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:02:57.828  2323  2347 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-14 19:02:57.828  2323  2347 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-14 19:02:57.829  2323  2347 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-14 19:02:57.844   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:02:57.956  2323  2345 D HostConnection: HostConnection::get() New Host Connection established 0x79a727360490, tid 2345
+11-14 19:02:57.958  2323  2345 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:02:57.966   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+11-14 19:02:57.968  2323  2345 D EGL_emulation: eglCreateContext: 0x79a71737eab0: maj 3 min 0 rcv 3
+11-14 19:02:57.969  2323  2345 D EGL_emulation: eglMakeCurrent: 0x79a71737eab0: ver 3 0 (tinfo 0x79a6b73bad10) (first time)
+11-14 19:02:57.975   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fbbe4000 0x3fbf68000]
+11-14 19:02:57.977   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:02:57.977  2323  2345 I Gralloc4: mapper 4.x is not supported
+11-14 19:02:57.978  2323  2345 D HostConnection: createUnique: call
+11-14 19:02:57.979  2323  2345 D HostConnection: HostConnection::get() New Host Connection established 0x79a727362d10, tid 2345
+11-14 19:02:57.979  2323  2345 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:02:57.979  2323  2345 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:02:57.991  2323  2345 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:02:57.993   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3f8708000 0x3f8a8c000]
+11-14 19:02:57.994   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3f8a8c000 0x3f8e10000]
+11-14 19:02:58.068   506   546 D ArtManagerInternalImpl: /data/misc/iorapd/com.stradaos.launcher.debug/51/com.stradaos.launcher.Main/compiled_traces/compiled_trace.pb doesn't exist
+11-14 19:02:58.068   506   546 I ActivityTaskManager: Displayed com.stradaos.launcher.debug/com.stradaos.launcher.Main: +388ms
+11-14 19:02:58.068   506   541 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+11-14 19:02:58.164  2323  2323 I TetheringManager: registerTetheringEventCallback:com.stradaos.launcher.debug
+11-14 19:02:58.179   326  1336 W ServiceManager: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10130 pid=2323
+11-14 19:02:58.180   326  1336 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10130 => denied (112 us)
+11-14 19:02:58.726  2323  2323 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+11-14 19:03:00.001   717   717 D KeyguardClockSwitch: Updating clock: 703
+11-14 19:03:00.330   157   157 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+11-14 19:03:00.604     0     0 I AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-14 19:03:00.608     0     0 I AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-14 19:03:00.612     0     0 I init    : Service 'apexd' (pid 213) exited with status 0 oneshot service took 30.990000 seconds in background
+11-14 19:03:00.615     0     0 I init    : Sending signal 9 to service 'apexd' (pid 213) process group...
+11-14 19:03:00.618     0     0 I libprocessgroup: Successfully killed process cgroup uid 0 pid 213 in 0ms
+11-14 19:03:00.500  1241  1241 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10107; state: DISABLED
+11-14 19:03:00.919   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:01.653   506   547 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10122; state: DISABLED
+11-14 19:03:01.653   506   548 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10122; state: ENABLED
+11-14 19:03:01.661   283   283 D Zygote  : Forked child process 2352
+11-14 19:03:01.662  1058  1058 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+11-14 19:03:01.662  1058  1058 I Telephony:  isRttSupported: false
+11-14 19:03:01.662  1058  1058 I Telephony:  isRoaming: false
+11-14 19:03:01.662  1058  1058 I Telephony:  isOnWfc: false
+11-14 19:03:01.662   506   548 I ActivityManager: Start proc 2352:com.android.cellbroadcastreceiver.module/u0a122 for broadcast {com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver}
+11-14 19:03:01.665  2352  2352 W receiver.modul: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:03:01.667   392   401 I adbd    : jdwp connection from 2352
+11-14 19:03:01.706   506   552 E libprocessgroup: AddTidToCgroup failed to write '2370'; fd=63: Invalid argument
+11-14 19:03:01.706   506   552 E libprocessgroup: Failed to add task into cgroup
+11-14 19:03:01.706   506   552 W libprocessgroup: ExecuteForTask failed for aggregate profile: Invalid argument
+11-14 19:03:01.709  2352  2352 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:03:01.709  2352  2352 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:03:01.714  2352  2352 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+11-14 19:03:01.715   506  1157 I ActivityManager: Killing 1997:com.android.camera2/u0a110 (adj 985): empty #17
+11-14 19:03:01.719   283   283 I Zygote  : Process 1997 exited due to signal 9 (Killed)
+11-14 19:03:01.737   506   549 I libprocessgroup: Successfully killed process cgroup uid 10110 pid 1997 in 21ms
+11-14 19:03:02.685   410   410 I perfetto: probes_producer.cc:329  Producer stop (id=5)
+11-14 19:03:02.687   410   410 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-14 19:03:02.687   412   412 I perfetto: ng_service_impl.cc:1948 Tracing session 5 ended, total sessions:0
+11-14 19:03:02.963     0     0 W perfetto: disabled ftrace
+11-14 19:03:02.688   426  2319 I iorapd  : Perfetto TraceBuffer saved to file: /data/misc/iorapd/com.stradaos.launcher.debug/51/com.stradaos.launcher.Main/raw_traces/1794682982687856614.perfetto_trace.pb
+11-14 19:03:02.927   506  1157 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:04.930   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:06.737  2352  2371 I receiver.modul: Waiting for a blocking GC ProfileSaver
+11-14 19:03:06.949   506  1157 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:06.740  2352  2371 I receiver.modul: Waiting for a blocking GC ProfileSaver
+11-14 19:03:07.312   506   652 E WifiHealthMonitor:  Hit PackageManager exception
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: android.content.pm.PackageManager$NameNotFoundException: com.google.android.wifi
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:206)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:178)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.extractCurrentSoftwareBuildInfo(WifiHealthMonitor.java:545)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootSwBuildCheck(WifiHealthMonitor.java:477)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.postBootDetectionHandler(WifiHealthMonitor.java:468)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor.access$200(WifiHealthMonitor.java:70)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at com.android.server.wifi.WifiHealthMonitor$2.onAlarm(WifiHealthMonitor.java:163)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.app.AlarmManager$ListenerWrapper.run(AlarmManager.java:239)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.os.Looper.loop(Looper.java:223)
+11-14 19:03:07.312   506   652 E WifiHealthMonitor: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-14 19:03:07.350   506  1157 D WifiNl80211Manager: Scan result ready event
+11-14 19:03:07.350   506  1157 D WifiNative: Scan result ready event
+11-14 19:03:07.403   506   546 I ActivityManager: Killing 1296:com.android.cellbroadcastreceiver/u0a65 (adj 985): empty #17
+11-14 19:03:07.418   283   283 I Zygote  : Process 1296 exited due to signal 9 (Killed)
+11-14 19:03:07.687     0     0 I binder  : undelivered transaction 145229, process died.
+11-14 19:03:07.450   506   549 I libprocessgroup: Successfully killed process cgroup uid 10065 pid 1296 in 45ms
+11-14 19:03:08.960   506  1157 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:10.965   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:12.510   506   538 I ActivityManager: Killing 2024:com.android.contacts/u0a98 (adj 985): empty #17
+11-14 19:03:12.511   506   538 I ActivityManager: Killing 1977:com.android.localtransport/1000 (adj 985): empty #18
+11-14 19:03:12.512   506   993 I ActivityManager: Killing 1455:android.process.acore/u0a63 (adj 975): empty #17
+11-14 19:03:12.565   506   995 D CountryDetector: No listener is left
+11-14 19:03:12.567   283   283 I Zygote  : Process 1455 exited due to signal 9 (Killed)
+11-14 19:03:12.569   283   283 I Zygote  : Process 2024 exited due to signal 9 (Killed)
+11-14 19:03:12.577   283   283 I Zygote  : Process 1977 exited due to signal 9 (Killed)
+11-14 19:03:12.592   506   549 I libprocessgroup: Successfully killed process cgroup uid 10098 pid 2024 in 80ms
+11-14 19:03:12.592   506   549 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 1977 in 0ms
+11-14 19:03:12.592   506   549 I libprocessgroup: Successfully killed process cgroup uid 10063 pid 1455 in 0ms
+11-14 19:03:12.978   506  1648 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:14.993   506  1157 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:16.995   506  1157 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:17.238   506   656 D ConnectivityService: handleLingerComplete for [100 CELLULAR]
+11-14 19:03:17.728   506   541 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+11-14 19:03:17.728   506  2382 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:17.730   412   412 I perfetto: ing_service_impl.cc:758 Configured tracing session 6, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-14 19:03:17.730   410   410 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=6)
+11-14 19:03:17.731   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:03:17.731  2385  2387 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:03:18.025     0     0 W perfetto: enabled ftrace
+11-14 19:03:17.749   410   410 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-14 19:03:18.995   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:22.735   410   410 I perfetto: probes_producer.cc:329  Producer stop (id=6)
+11-14 19:03:22.736   412   412 I perfetto: ng_service_impl.cc:1948 Tracing session 6 ended, total sessions:0
+11-14 19:03:23.013     0     0 W perfetto: disabled ftrace
+11-14 19:03:22.737   410   410 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-14 19:03:20.996   506   995 I chatty  : uid=1000(system) Binder:506_9 identical 1 line
+11-14 19:03:23.011   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:23.771   506   995 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:23.771   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:03:23.772  2399  2401 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:03:23.773   412   412 I perfetto: ing_service_impl.cc:758 Configured tracing session 7, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-14 19:03:23.773   410   410 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=7)
+11-14 19:03:23.774   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:03:23.797   410   410 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-14 19:03:24.071     0     0 W perfetto: enabled ftrace
+11-14 19:03:25.013   506  2092 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:28.774   410   410 I perfetto: probes_producer.cc:329  Producer stop (id=7)
+11-14 19:03:28.775   412   412 I perfetto: ng_service_impl.cc:1948 Tracing session 7 ended, total sessions:0
+11-14 19:03:28.776   410   410 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-14 19:03:29.052     0     0 W perfetto: disabled ftrace
+11-14 19:03:27.014   506  2092 I chatty  : uid=1000(system) Binder:506_10 identical 1 line
+11-14 19:03:29.021   506  2092 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:31.023   506  1001 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:31.499     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-14 19:03:32.734   476   476 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+11-14 19:03:32.734   476   476 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+11-14 19:03:32.779   484   484 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+11-14 19:03:32.779   484   484 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+11-14 19:03:33.038   506  1001 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:35.045   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:35.915   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:03:36.104   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:03:36.104  2412  2412 I Gralloc4: mapper 4.x is not supported
+11-14 19:03:36.147  2412  2412 D HostConnection: createUnique: call
+11-14 19:03:36.148  2412  2412 D HostConnection: HostConnection::get() New Host Connection established 0x798420e0ffd0, tid 2412
+11-14 19:03:36.148  2412  2412 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:03:36.148  2412  2412 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:03:36.210  2412  2412 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:36.358  2416  2418 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:03:36.371  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:36.664     0     0 W audit   : audit_lost=8 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:03:36.667     0     0 E audit   : rate limit exceeded
+11-14 19:03:36.391  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:03:36.393  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 7ms, 0 inserts 0 updates 0 deletes
+11-14 19:03:36.394  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:36.368  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:24): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:36.380  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:25): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:36.380  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:26): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:36.470   506  1214 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:36.384  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:03:36.384  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:28): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:36.470   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:03:36.471   412   412 I perfetto: ing_service_impl.cc:758 Configured tracing session 8, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-14 19:03:36.471   410   410 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=8)
+11-14 19:03:36.473   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:03:36.474  2424  2426 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:03:36.487   410   410 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-14 19:03:36.763     0     0 W perfetto: enabled ftrace
+11-14 19:03:37.046   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:38.943   506  2436 I system_server: The ClassLoaderContext is a special shared library.
+11-14 19:03:38.955   506  2436 I chatty  : uid=1000(system) Binder:506_3 identical 18 lines
+11-14 19:03:38.956   506  2436 I system_server: The ClassLoaderContext is a special shared library.
+11-14 19:03:38.959   425   582 V installd: DexInv: --- BEGIN '/apex/com.android.os.statsd/javalib/service-statsd.jar' ---
+11-14 19:03:38.975  2437  2437 W dex2oat32: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:03:38.976  2437  2437 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --classpath-dir=/apex/com.android.os.statsd/javalib --class-loader-context=PCL[];PCL[/system/framework/com.android.location.provider.jar:/system/framework/services.jar:/system/framework/ethernet-service.jar:/apex/com.android.permission/javalib/service-permission.jar:/apex/com.android.wifi/javalib/service-wifi.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar] --generate-mini-debug-info --compact-dex-level=none --compilation-reason=boot
+11-14 19:03:38.977  2437  2437 I dex2oat32: setting boot class path to /apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar
+11-14 19:03:38.978   506  1214 D WifiNl80211Manager: Scan result ready event
+11-14 19:03:38.978   506  1214 D WifiNative: Scan result ready event
+11-14 19:03:39.012  2437  2437 I dex2oat32: dex2oat took 37.351ms (34.407ms cpu) (threads: 2) arena alloc=0B (0B) java alloc=33KB (34600B) native alloc=1005KB (1030064B) free=1504KB (1540928B)
+11-14 19:03:39.014   425   582 V installd: DexInv: --- END '/apex/com.android.os.statsd/javalib/service-statsd.jar' (success) ---
+11-14 19:03:39.016   506  2436 I system_server: The ClassLoaderContext is a special shared library.
+11-14 19:03:39.055   506  2436 I chatty  : uid=1000(system) Binder:506_3 identical 45 lines
+11-14 19:03:39.057   506  2436 I system_server: The ClassLoaderContext is a special shared library.
+11-14 19:03:39.058   506  2436 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/base.apk pkg=com.stradaos.launcher.debug isa=x86_64 dexoptFlags=boot_complete,debuggable,public,enable_hidden_api_checks targetFilter=verify oatDir=/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/oat classLoaderContext=PCL[]{PCL[/system/framework/android.test.base.jar]}
+11-14 19:03:39.058   425   582 V installd: DexInv: --- BEGIN '/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/base.apk' ---
+11-14 19:03:39.066  2441  2441 W dex2oat32: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:03:39.067  2441  2441 I dex2oat32: /apex/com.android.art/bin/dex2oat32 --input-vdex-fd=-1 --output-vdex-fd=9 --updatable-bcp-packages-file=/system/etc/updatable-bcp-packages.txt --resolve-startup-const-strings=true --max-image-block-size=524288 --compiler-filter=verify --debuggable --classpath-dir=/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw== --class-loader-context=PCL[]{PCL[/system/framework/android.test.base.jar]} --generate-mini-debug-info --compact-dex-level=none --compilation-reason=boot
+11-14 19:03:39.068  2441  2441 I dex2oat32: setting boot class path to /apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/core-icu4j.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-atb-backward-compatibility.jar
+11-14 19:03:39.128  2441  2441 I dex2oat32: dex2oat took 62.365ms (77.871ms cpu) (threads: 2) arena alloc=0B (0B) java alloc=543KB (557040B) native alloc=1312KB (1344064B) free=1479KB (1514800B)
+11-14 19:03:39.131   425   582 V installd: DexInv: --- END '/data/app/~~_tguDLtZb8Z_2-qtdd-0lA==/com.stradaos.launcher.debug-h3z2m_PnTtU68E-_YTUvfw==/base.apk' (success) ---
+11-14 19:03:39.132   506  2436 I system_server: The ClassLoaderContext is a special shared library.
+11-14 19:03:39.153   506  2436 I chatty  : uid=1000(system) Binder:506_3 identical 22 lines
+11-14 19:03:39.154   506  2436 I system_server: The ClassLoaderContext is a special shared library.
+11-14 19:03:39.154   506  2436 I BackgroundDexOptService: Pinning optimized code {android, com.stradaos.launcher.debug}
+11-14 19:03:39.154   506  2436 D IorapForwardingService: onPackagesUpdated: android
+11-14 19:03:39.154   506  2436 D IorapForwardingService: onPackagesUpdated: com.stradaos.launcher.debug
+11-14 19:03:41.475   410   410 I perfetto: probes_producer.cc:329  Producer stop (id=8)
+11-14 19:03:41.475   412   412 I perfetto: ng_service_impl.cc:1948 Tracing session 8 ended, total sessions:0
+11-14 19:03:41.476   410   410 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-14 19:03:41.753     0     0 W perfetto: disabled ftrace
+11-14 19:03:39.047   506  1214 I chatty  : uid=1000(system) Binder:506_D identical 1 line
+11-14 19:03:41.048   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:43.050   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:46.331  1401  1880 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-14 19:03:46.332  1401  1401 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-14 19:03:46.332  1401  1401 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-14 19:03:46.333  1401  1401 I Dialer  : VvmTaskReceiver - task received
+11-14 19:03:46.333  1401  1401 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-14 19:03:46.333  1401  1401 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-14 19:03:46.333  1401  1401 I Dialer  : RetryPolicy - retry #1 for com.android.voicemail.impl.ActivationTask@2f7eaeb queued, executing in 5000
+11-14 19:03:46.333  1401  1401 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@2f7eaeb added
+11-14 19:03:46.333  1401  1401 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-14 19:03:46.333  1401  1401 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-14 19:03:46.539   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:03:46.545   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:03:46.545  2447  2447 I Gralloc4: mapper 4.x is not supported
+11-14 19:03:46.550  2447  2447 D HostConnection: createUnique: call
+11-14 19:03:46.552  2447  2447 D HostConnection: HostConnection::get() New Host Connection established 0x7e3d13653150, tid 2447
+11-14 19:03:46.552  2447  2447 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:03:46.552  2447  2447 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:03:46.565  2447  2447 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:03:46.782  2451  2453 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:03:46.783  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:46.784  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:30): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:46.784  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:31): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:47.067     0     0 W audit   : audit_lost=9 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:03:47.095     0     0 E audit   : rate limit exceeded
+11-14 19:03:46.830  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:03:46.831  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 42ms, 0 inserts 0 updates 0 deletes
+11-14 19:03:46.831  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:03:46.784  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:32): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:45.062   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:46.901   506  1214 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:03:46.784  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:03:46.784  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:34): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:03:46.903   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:03:46.904   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:03:47.066   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:51.374  1401  1880 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@2f7eaeb
+11-14 19:03:51.374  1401  1880 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-14 19:03:49.079   506  1214 I chatty  : uid=1000(system) Binder:506_D identical 1 line
+11-14 19:03:51.084   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:51.380   506  1214 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10063; state: DISABLED
+11-14 19:03:51.380   506   548 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10063; state: ENABLED
+11-14 19:03:51.385   283   283 D Zygote  : Forked child process 2467
+11-14 19:03:51.387   506   548 I ActivityManager: Start proc 2467:android.process.acore/u0a63 for content provider {com.android.providers.contacts/com.android.providers.contacts.VoicemailContentProvider}
+11-14 19:03:51.390  2467  2467 W d.process.acor: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:03:51.392   392   401 I adbd    : jdwp connection from 2467
+11-14 19:03:51.401  2467  2467 I d.process.acor: The ClassLoaderContext is a special shared library.
+11-14 19:03:51.415  2467  2467 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:03:51.415  2467  2467 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-14 19:03:51.417  2467  2467 I d.process.acor: The ClassLoaderContext is a special shared library.
+11-14 19:03:51.424  2467  2467 I d.process.acor: The ClassLoaderContext is a special shared library.
+11-14 19:03:51.426  2467  2467 I ContactsPerf: VoicemailContentProvider.onCreate start
+11-14 19:03:51.429  2467  2467 I ContactsPerf: VoicemailContentProvider.onCreate finish
+11-14 19:03:51.439   506  2382 D CountryDetector: The first listener is added
+11-14 19:03:51.439  2467  2467 I ContactsDatabaseHelper: updateUseStrictPhoneNumberComparison: US
+11-14 19:03:51.440  2467  2467 D ActivityThread: Loading provider contacts;com.android.contacts: com.android.providers.contacts.ContactsProvider2
+11-14 19:03:51.517  2467  2485 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:03:51.518  1401  1880 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-14 19:03:51.518  1401  1880 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-14 19:03:51.519  2467  2493 D ContactsDatabaseHelper: WAL enabled for contacts2.db: true
+11-14 19:03:51.521  2467  2484 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:03:51.529  1058  1221 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:03:51.530  1058  1221 D SmsNumberUtils: destAddr is not formatted.
+11-14 19:03:51.530  1058  1221 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:03:51.546  2467  2493 I ContactLocale: AddressBook Labels [[en_US]]: […, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, …, А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, …, א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, …, ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, …, ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, …, ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, …, あ, か, さ, た, な, は, ま, や, ら, わ, #, …]
+11-14 19:03:51.552  2467  2494 D ContactsDatabaseHelper: WAL enabled for profile.db: false
+11-14 19:03:51.585  2467  2494 I ContactDirectoryManager: deleted 0 stale rows which don't have any relevant directory
+11-14 19:03:51.585  2467  2493 I ContactDirectoryManager: deleted 0 stale rows which don't have any relevant directory
+11-14 19:03:51.585  2467  2494 I ContactDirectoryManager: Discovered 0 contact directories in 2ms
+11-14 19:03:51.585  2467  2493 I ContactDirectoryManager: Discovered 0 contact directories in 2ms
+11-14 19:03:51.586   698   698 D BluetoothPbapService:  onChange on contact uri 
+11-14 19:03:51.588   698   698 D BluetoothPbapService:  onChange on contact uri 
+11-14 19:03:51.590  2467  2484 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10063; state: ENABLED
+11-14 19:03:51.615   698  2495 D BluetoothPbapUtils: primaryVersionCounter = 0, secondaryVersionCounter=0
+11-14 19:03:53.093   506  2382 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:03:55.110   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:00.002   717   717 D KeyguardClockSwitch: Updating clock: 704
+11-14 19:04:11.982   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:04:11.988   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:04:11.990  2496  2496 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:11.994  2496  2496 D HostConnection: createUnique: call
+11-14 19:04:11.995  2496  2496 D HostConnection: HostConnection::get() New Host Connection established 0x7d2979652350, tid 2496
+11-14 19:04:11.995  2496  2496 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:04:11.995  2496  2496 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:04:12.006  2496  2496 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:12.137  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:12.136  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:36): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:12.151  2500  2502 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:12.136  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:37): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:12.416     0     0 W audit   : audit_lost=10 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:12.429     0     0 E audit   : rate limit exceeded
+11-14 19:04:12.159  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:12.159  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 22ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:12.160  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:12.136  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:38): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:12.136  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:04:12.136  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:40): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:12.238   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:04:09.165   506  1214 I chatty  : uid=1000(system) Binder:506_D identical 7 lines
+11-14 19:04:11.176   506  1214 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:12.239   506  1214 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:12.240   412   412 I perfetto: ing_service_impl.cc:758 Configured tracing session 9, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-14 19:04:12.240   410   410 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=9)
+11-14 19:04:12.241  2508  2510 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:12.248   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:04:12.280   410   410 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-14 19:04:12.553     0     0 W perfetto: enabled ftrace
+11-14 19:04:13.177   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:13.749   506   995 D CompatibilityChangeReporter: Compat change id reported: 149924527; UID 10130; state: ENABLED
+11-14 19:04:13.749   506   995 D CompatibilityChangeReporter: Compat change id reported: 132649864; UID 10130; state: DISABLED
+11-14 19:04:15.178   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:17.241   410   410 I perfetto: probes_producer.cc:329  Producer stop (id=9)
+11-14 19:04:17.242   412   412 I perfetto: ng_service_impl.cc:1948 Tracing session 9 ended, total sessions:0
+11-14 19:04:17.243   410   410 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-14 19:04:17.520     0     0 W perfetto: disabled ftrace
+11-14 19:04:18.978   506   995 D WifiNl80211Manager: Scan result ready event
+11-14 19:04:18.978   506   995 D WifiNative: Scan result ready event
+11-14 19:04:22.317   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:04:22.324   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:04:22.324  2519  2519 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:22.328  2519  2519 D HostConnection: createUnique: call
+11-14 19:04:22.329  2519  2519 D HostConnection: HostConnection::get() New Host Connection established 0x768f335e4290, tid 2519
+11-14 19:04:22.329  2519  2519 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:04:22.329  2519  2519 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:04:22.335  2519  2519 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:19.194   506   995 I chatty  : uid=1000(system) Binder:506_9 identical 2 lines
+11-14 19:04:21.215   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:22.443   506  2382 I ActivityManager: Killing 1241:com.android.deskclock/u0a107 (adj 985): empty #17
+11-14 19:04:22.450   283   283 I Zygote  : Process 1241 exited due to signal 9 (Killed)
+11-14 19:04:22.451  2523  2525 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:22.456  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:22.452  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:42): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:22.747     0     0 W audit   : audit_lost=11 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:22.754     0     0 E audit   : rate limit exceeded
+11-14 19:04:22.464  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:43): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:22.486   506   549 I libprocessgroup: Successfully killed process cgroup uid 10107 pid 1241 in 42ms
+11-14 19:04:22.487  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:22.487  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 19ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:22.488  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:22.464  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:44): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:22.464  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:04:22.464  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:46): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:22.545   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:04:22.546   506  1103 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:22.548   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:04:23.217   506  1103 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:25.218   506  1103 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:27.219   506  1789 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:31.499     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-14 19:04:32.780   476   476 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+11-14 19:04:32.780   476   476 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+11-14 19:04:32.839   484   484 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+11-14 19:04:32.839   484   484 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+11-14 19:04:34.634   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:04:34.641   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:04:34.641  2537  2537 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:34.652  2537  2537 D HostConnection: createUnique: call
+11-14 19:04:34.653  2537  2537 D HostConnection: HostConnection::get() New Host Connection established 0x7e7f8ed66890, tid 2537
+11-14 19:04:34.653  2537  2537 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:04:34.653  2537  2537 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:04:34.672  2537  2537 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:34.824  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:34.835  2541  2542 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:34.820  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:48): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:35.114     0     0 W audit   : audit_lost=12 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:35.125     0     0 E audit   : rate limit exceeded
+11-14 19:04:34.863  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:34.864  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 40ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:34.820  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:49): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:34.874  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:34.820  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:50): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:34.820  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:04:34.820  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:52): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:34.956   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:04:31.233   506  1789 I chatty  : uid=1000(system) Binder:506_F identical 2 lines
+11-14 19:04:33.249   506  1789 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:34.957   506  1103 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:34.958   412   412 I perfetto: ing_service_impl.cc:758 Configured tracing session 10, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+11-14 19:04:34.958   410   410 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=10)
+11-14 19:04:34.961   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:04:34.965  2549  2551 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:34.984   410   410 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+11-14 19:04:35.260     0     0 W perfetto: enabled ftrace
+11-14 19:04:35.260   506  1103 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:39.964   410   410 I perfetto: probes_producer.cc:329  Producer stop (id=10)
+11-14 19:04:39.964   412   412 I perfetto: ng_service_impl.cc:1948 Tracing session 10 ended, total sessions:0
+11-14 19:04:39.967   410   410 I perfetto: ftrace_procfs.cc:183    disabled ftrace
+11-14 19:04:40.242     0     0 W perfetto: disabled ftrace
+11-14 19:04:47.047   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:04:47.072   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:04:47.073  2559  2559 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:47.079  2559  2559 D HostConnection: createUnique: call
+11-14 19:04:47.085  2559  2559 D HostConnection: HostConnection::get() New Host Connection established 0x79fc761400d0, tid 2559
+11-14 19:04:47.086  2559  2559 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:04:47.086  2559  2559 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:04:47.102  2559  2559 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:47.294  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:47.573     0     0 W audit   : audit_lost=13 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:47.587     0     0 E audit   : rate limit exceeded
+11-14 19:04:47.292  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:54): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:47.318  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:47.319  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 24ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:47.320  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:47.292  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:55): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:47.292  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:56): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:47.292  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:04:47.292  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:58): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:47.401   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:04:45.276   506  1103 I chatty  : uid=1000(system) Binder:506_B identical 5 lines
+11-14 19:04:47.280   506  1103 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:47.402   506  2382 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:47.410   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:04:47.412  2571  2573 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:49.282   506  1103 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:51.538  1401  1880 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-14 19:04:51.538  1401  1401 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-14 19:04:51.539  1401  1401 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-14 19:04:51.539  1401  1401 I Dialer  : VvmTaskReceiver - task received
+11-14 19:04:51.539  1401  1401 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-14 19:04:51.539  1401  1401 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-14 19:04:51.539  1401  1401 I Dialer  : RetryPolicy - retry #2 for com.android.voicemail.impl.ActivationTask@39aa8f4 queued, executing in 5000
+11-14 19:04:51.539  1401  1401 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@39aa8f4 added
+11-14 19:04:51.540  1401  1401 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-14 19:04:51.540  1401  1401 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-14 19:04:51.293   506  1103 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:53.297   506  2382 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:56.577  1401  1880 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@39aa8f4
+11-14 19:04:56.578  1401  1880 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-14 19:04:56.589  2467  2485 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:04:56.589  1401  1880 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-14 19:04:56.590  1401  1880 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-14 19:04:56.592  2467  2485 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-14 19:04:56.597  1058  1221 D SmsNumberUtils: enter filterDestAddr. destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:04:56.597  1058  1221 D SmsNumberUtils: destAddr is not formatted.
+11-14 19:04:56.597  1058  1221 D SmsNumberUtils: leave filterDestAddr, new destAddr="[BajqU4K5_YhSYbs-7QUn0dOwcmI]"
+11-14 19:04:59.500   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:04:59.516   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:04:59.516  2577  2577 I Gralloc4: mapper 4.x is not supported
+11-14 19:04:59.523  2577  2577 D HostConnection: createUnique: call
+11-14 19:04:59.524  2577  2577 D HostConnection: HostConnection::get() New Host Connection established 0x7e3c008b8110, tid 2577
+11-14 19:04:59.524  2577  2577 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:04:59.525  2577  2577 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:04:59.536  2577  2577 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:04:59.675  2581  2583 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:04:59.677  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:59.696  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:04:59.696  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 12ms, 0 inserts 0 updates 0 deletes
+11-14 19:04:59.962     0     0 W audit   : audit_lost=14 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:04:59.972     0     0 E audit   : rate limit exceeded
+11-14 19:04:59.699  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:04:59.676  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:60): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:59.676  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:61): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:59.676  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:62): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:59.676  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:04:59.676  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:64): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:04:59.824   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:04:57.305   506  2382 I chatty  : uid=1000(system) Binder:506_11 identical 2 lines
+11-14 19:04:59.310   506  2382 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:04:59.826   506  1789 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:04:59.829   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:05:00.003   717   717 D KeyguardClockSwitch: Updating clock: 705
+11-14 19:05:01.310   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:05.321   506   995 I chatty  : uid=1000(system) Binder:506_9 identical 2 lines
+11-14 19:05:07.330   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:09.343   506  1789 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:11.344   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:00.021   717   717 D KeyguardClockSwitch: Updating clock: 705
+11-14 19:05:11.912   300   315 D goldfish-address-space: claimShared: Ask to claim region [0x3fb840000 0x3fbbc4000]
+11-14 19:05:11.920   158   158 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+11-14 19:05:11.920  2595  2595 I Gralloc4: mapper 4.x is not supported
+11-14 19:05:11.925  2595  2595 D HostConnection: createUnique: call
+11-14 19:05:11.925  2595  2595 D HostConnection: HostConnection::get() New Host Connection established 0x70768456a9d0, tid 2595
+11-14 19:05:11.925  2595  2595 D goldfish-address-space: allocate: Ask for block of size 0x100
+11-14 19:05:11.926  2595  2595 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+11-14 19:05:11.936  2595  2595 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+11-14 19:05:12.031  1487  2249 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:12.028  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:66): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.316     0     0 W audit   : audit_lost=15 audit_rate_limit=5 audit_backlog_limit=64
+11-14 19:05:12.324     0     0 E audit   : rate limit exceeded
+11-14 19:05:12.059  1487  2249 W ModernMediaScanner: Failed to visit /data/local/tmp/s.png: java.nio.file.AccessDeniedException: /data/local/tmp/s.png
+11-14 19:05:12.060  1487  2249 I MediaProvider: Scanned internal due to REASON_DEMAND, found 0 items in 22ms, 0 inserts 0 updates 0 deletes
+11-14 19:05:12.061  1487  2249 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///data/local/tmp/s.png flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+11-14 19:05:12.028  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:67): avc: denied { getattr } for comm=4173796E635461736B202331 path="/data/local/tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.036  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:68): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.121   506   995 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.stradaos.launcher.debug/com.stradaos.launcher.Main (has extras)} from uid 2000
+11-14 19:05:12.036  1487  1487 I chatty  : uid=10128(com.android.providers.media.module) identical 1 line
+11-14 19:05:12.036  1487  1487 W com.android.providers.media.module: type=1400 audit(0.0:70): avc: denied { search } for comm=4173796E635461736B202331 name="tmp" dev="dm-5" ino=65538 scontext=u:r:mediaprovider_app:s0:c128,c256,c512,c768 tcontext=u:object_r:shell_data_file:s0 tclass=dir permissive=0 app=com.android.providers.media.module
+11-14 19:05:12.121   506   541 D EventSequenceValidator: Transition from INTENT_FAILED to INTENT_STARTED
+11-14 19:05:12.123  2607  2609 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+11-14 19:05:12.124   506   541 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+11-14 19:05:13.347   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:16.197  2613  2613 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-14 19:05:16.204  2613  2613 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+11-14 19:05:16.204  2613  2613 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-14 19:05:16.204  2613  2613 I AndroidRuntime: Using default boot image
+11-14 19:05:16.204  2613  2613 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-14 19:05:16.204  2613  2613 I AndroidRuntime: Leaving lock profiling enabled
+11-14 19:05:16.204  2613  2613 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-14 19:05:16.206  2613  2613 I app_process: Core platform API reporting enabled, enforcing=false
+11-14 19:05:16.196  2613  2613 W app_process: type=1400 audit(0.0:72): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=218 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-14 19:05:16.196  2613  2613 I chatty  : uid=2000(shell) app_process identical 2 lines
+11-14 19:05:16.196  2613  2613 W app_process: type=1400 audit(0.0:75): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=218 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-14 19:05:16.268  2613  2613 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-14 19:05:16.268  2613  2613 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+11-14 19:05:16.270  2613  2613 W app_process: Unexpected CPU variant for X86 using defaults: x86_64
+11-14 19:05:16.271  2613  2613 I app_process: The ClassLoaderContext is a special shared library.
+11-14 19:05:16.278  2613  2613 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-14 19:05:16.280  2613  2613 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-14 19:05:15.348   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:16.284   506   539 D AutofillManagerService: onBackKeyPressed()
+11-14 19:05:16.284   506   539 D AutofillManagerServiceImpl: Reset component for user 0:
+11-14 19:05:16.284   506   539 D AutofillUI: destroySaveUiUiThread(): already destroyed
+11-14 19:05:16.287  2613  2613 D AndroidRuntime: Shutting down VM
+11-14 19:05:17.365   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:25.398   506   993 I chatty  : uid=1000(system) Binder:506_8 identical 4 lines
+11-14 19:05:27.412   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:29.428   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:31.500     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=300000 cc=10 chg=a
+11-14 19:05:32.841   476   476 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+11-14 19:05:32.841   476   476 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+11-14 19:05:32.897   484   484 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+11-14 19:05:32.897   484   484 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+11-14 19:05:33.429   506   995 I chatty  : uid=1000(system) Binder:506_9 identical 2 lines
+11-14 19:05:35.443   506   995 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:37.465   506   993 W ActivityManager: Unable to start service Intent { cmp=com.clw.btmusic/.BTPlaybackService } U=0: not found
+11-14 19:05:39.017     0     0 D logd    : logdr: UID=2000 GID=2000 PID=2630 n tail=0 logMask=99 pid=0 start=0ns timeout=0ns
